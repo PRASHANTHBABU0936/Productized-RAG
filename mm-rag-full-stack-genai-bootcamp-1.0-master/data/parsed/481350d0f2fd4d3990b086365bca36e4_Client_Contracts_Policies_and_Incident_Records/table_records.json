@@ -1,0 +1,1300 @@
+[
+  {
+    "page_number": 1,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Section",
+        "Parsing challenge",
+        "Why it matters for RAG"
+      ],
+      [
+        "Contracts",
+        "Dense legal text, clause numbers, cross references",
+        "Need section-aware chunks and citations"
+      ],
+      [
+        "Tables",
+        "Merged headers, numeric columns, footnotes",
+        "Need row/column preservation"
+      ],
+      [
+        "Images",
+        "Architecture diagram, heatmap, scanned form",
+        "Need OCR or multimodal extraction"
+      ],
+      [
+        "Multi-tenant metadata",
+        "client_id, document_id, contract_group_id",
+        "Need access-safe retrieval"
+      ]
+    ],
+    "headers": [
+      "Section",
+      "Parsing challenge",
+      "Why it matters for RAG"
+    ],
+    "rows": [
+      {
+        "Section": "Contracts",
+        "Parsing challenge": "Dense legal text, clause numbers, cross references",
+        "Why it matters for RAG": "Need section-aware chunks and citations"
+      },
+      {
+        "Section": "Tables",
+        "Parsing challenge": "Merged headers, numeric columns, footnotes",
+        "Why it matters for RAG": "Need row/column preservation"
+      },
+      {
+        "Section": "Images",
+        "Parsing challenge": "Architecture diagram, heatmap, scanned form",
+        "Why it matters for RAG": "Need OCR or multimodal extraction"
+      },
+      {
+        "Section": "Multi-tenant metadata",
+        "Parsing challenge": "client_id, document_id, contract_group_id",
+        "Why it matters for RAG": "Need access-safe retrieval"
+      }
+    ],
+    "row_count": 4,
+    "column_count": 3,
+    "markdown": "| Section               | Parsing challenge                                  | Why it matters for RAG                  |\n|:----------------------|:---------------------------------------------------|:----------------------------------------|\n| Contracts             | Dense legal text, clause numbers, cross references | Need section-aware chunks and citations |\n| Tables                | Merged headers, numeric columns, footnotes         | Need row/column preservation            |\n| Images                | Architecture diagram, heatmap, scanned form        | Need OCR or multimodal extraction       |\n| Multi-tenant metadata | client_id, document_id, contract_group_id          | Need access-safe retrieval              |",
+    "csv": "Section,Parsing challenge,Why it matters for RAG\r\nContracts,\"Dense legal text, clause numbers, cross references\",Need section-aware chunks and citations\r\nTables,\"Merged headers, numeric columns, footnotes\",Need row/column preservation\r\nImages,\"Architecture diagram, heatmap, scanned form\",Need OCR or multimodal extraction\r\nMulti-tenant metadata,\"client_id, document_id, contract_group_id\",Need access-safe retrieval\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 1\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 4\n\nTABLE COLUMNS:\nSection, Parsing challenge, Why it matters for RAG\n\nROW 1:\nSection = Contracts | Parsing challenge = Dense legal text, clause numbers, cross references | Why it matters for RAG = Need section-aware chunks and citations\n\nROW 2:\nSection = Tables | Parsing challenge = Merged headers, numeric columns, footnotes | Why it matters for RAG = Need row/column preservation\n\nROW 3:\nSection = Images | Parsing challenge = Architecture diagram, heatmap, scanned form | Why it matters for RAG = Need OCR or multimodal extraction\n\nROW 4:\nSection = Multi-tenant metadata | Parsing challenge = client_id, document_id, contract_group_id | Why it matters for RAG = Need access-safe retrieval"
+  },
+  {
+    "page_number": 2,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Client",
+        "Main document family",
+        "Risk",
+        "Primary users",
+        "Typical question"
+      ],
+      [
+        "Arka Finance",
+        "MSA, audit addendum, DPA",
+        "High",
+        "Legal and compliance",
+        "What audit rights exist in the DPA?"
+      ],
+      [
+        "BlueLeaf Retail",
+        "MSA, pricing, support SLA",
+        "Medium",
+        "Procurement",
+        "Which clause controls renewal pricing?"
+      ],
+      [
+        "CityRide Mobility",
+        "Ops reports, incident logs, SOPs",
+        "Medium",
+        "Operations",
+        "Which depot had repeated battery incidents?"
+      ]
+    ],
+    "headers": [
+      "Client",
+      "Main document family",
+      "Risk",
+      "Primary users",
+      "Typical question"
+    ],
+    "rows": [
+      {
+        "Client": "Arka Finance",
+        "Main document family": "MSA, audit addendum, DPA",
+        "Risk": "High",
+        "Primary users": "Legal and compliance",
+        "Typical question": "What audit rights exist in the DPA?"
+      },
+      {
+        "Client": "BlueLeaf Retail",
+        "Main document family": "MSA, pricing, support SLA",
+        "Risk": "Medium",
+        "Primary users": "Procurement",
+        "Typical question": "Which clause controls renewal pricing?"
+      },
+      {
+        "Client": "CityRide Mobility",
+        "Main document family": "Ops reports, incident logs, SOPs",
+        "Risk": "Medium",
+        "Primary users": "Operations",
+        "Typical question": "Which depot had repeated battery incidents?"
+      }
+    ],
+    "row_count": 3,
+    "column_count": 5,
+    "markdown": "| Client            | Main document family             | Risk   | Primary users        | Typical question                            |\n|:------------------|:---------------------------------|:-------|:---------------------|:--------------------------------------------|\n| Arka Finance      | MSA, audit addendum, DPA         | High   | Legal and compliance | What audit rights exist in the DPA?         |\n| BlueLeaf Retail   | MSA, pricing, support SLA        | Medium | Procurement          | Which clause controls renewal pricing?      |\n| CityRide Mobility | Ops reports, incident logs, SOPs | Medium | Operations           | Which depot had repeated battery incidents? |",
+    "csv": "Client,Main document family,Risk,Primary users,Typical question\r\nArka Finance,\"MSA, audit addendum, DPA\",High,Legal and compliance,What audit rights exist in the DPA?\r\nBlueLeaf Retail,\"MSA, pricing, support SLA\",Medium,Procurement,Which clause controls renewal pricing?\r\nCityRide Mobility,\"Ops reports, incident logs, SOPs\",Medium,Operations,Which depot had repeated battery incidents?\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 2\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 5\nNUMBER OF DATA ROWS: 3\n\nTABLE COLUMNS:\nClient, Main document family, Risk, Primary users, Typical question\n\nROW 1:\nClient = Arka Finance | Main document family = MSA, audit addendum, DPA | Risk = High | Primary users = Legal and compliance | Typical question = What audit rights exist in the DPA?\n\nROW 2:\nClient = BlueLeaf Retail | Main document family = MSA, pricing, support SLA | Risk = Medium | Primary users = Procurement | Typical question = Which clause controls renewal pricing?\n\nROW 3:\nClient = CityRide Mobility | Main document family = Ops reports, incident logs, SOPs | Risk = Medium | Primary users = Operations | Typical question = Which depot had repeated battery incidents?"
+  },
+  {
+    "page_number": 3,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Asset ID",
+        "Client",
+        "Format",
+        "Pages/Rows",
+        "Expected extraction",
+        "Notes"
+      ],
+      [
+        "ARK-MSA-001",
+        "Arka Finance",
+        "PDF",
+        "32 pages",
+        "Clauses, tables, signatures",
+        "Born-digital text with footer references"
+      ],
+      [
+        "ARK-DPA-002",
+        "Arka Finance",
+        "DOCX",
+        "18 pages",
+        "Headings, lists, tables",
+        "Track changes removed before ingestion"
+      ],
+      [
+        "BLR-PRICE-00 3",
+        "BlueLeaf Retail",
+        "XLSX",
+        "12 sheets",
+        "Rate cards, discounts",
+        "Merged cells and formulas"
+      ],
+      [
+        "BLR-SLA-004",
+        "BlueLeaf Retail",
+        "PDF",
+        "9 pages",
+        "SLA table, escalation matrix",
+        "Table crosses page boundary"
+      ],
+      [
+        "CRM-OPS-005",
+        "CityRide Mobility",
+        "CSV",
+        "48,200 rows",
+        "Incident records",
+        "Needs column type normalization"
+      ],
+      [
+        "CRM-FORM-00 6",
+        "CityRide Mobility",
+        "Scanned PDF",
+        "4 pages",
+        "OCR fields, checkbox",
+        "Low contrast and slight rotation"
+      ],
+      [
+        "KB-RUN-007",
+        "Shared",
+        "Markdown",
+        "14 files",
+        "Runbook sections",
+        "Good for heading-based chunks"
+      ],
+      [
+        "WEB-FAQ-008",
+        "Shared",
+        "HTML",
+        "23 pages",
+        "FAQ content, links",
+        "Needs boilerplate removal"
+      ]
+    ],
+    "headers": [
+      "Asset ID",
+      "Client",
+      "Format",
+      "Pages/Rows",
+      "Expected extraction",
+      "Notes"
+    ],
+    "rows": [
+      {
+        "Asset ID": "ARK-MSA-001",
+        "Client": "Arka Finance",
+        "Format": "PDF",
+        "Pages/Rows": "32 pages",
+        "Expected extraction": "Clauses, tables, signatures",
+        "Notes": "Born-digital text with footer references"
+      },
+      {
+        "Asset ID": "ARK-DPA-002",
+        "Client": "Arka Finance",
+        "Format": "DOCX",
+        "Pages/Rows": "18 pages",
+        "Expected extraction": "Headings, lists, tables",
+        "Notes": "Track changes removed before ingestion"
+      },
+      {
+        "Asset ID": "BLR-PRICE-00 3",
+        "Client": "BlueLeaf Retail",
+        "Format": "XLSX",
+        "Pages/Rows": "12 sheets",
+        "Expected extraction": "Rate cards, discounts",
+        "Notes": "Merged cells and formulas"
+      },
+      {
+        "Asset ID": "BLR-SLA-004",
+        "Client": "BlueLeaf Retail",
+        "Format": "PDF",
+        "Pages/Rows": "9 pages",
+        "Expected extraction": "SLA table, escalation matrix",
+        "Notes": "Table crosses page boundary"
+      },
+      {
+        "Asset ID": "CRM-OPS-005",
+        "Client": "CityRide Mobility",
+        "Format": "CSV",
+        "Pages/Rows": "48,200 rows",
+        "Expected extraction": "Incident records",
+        "Notes": "Needs column type normalization"
+      },
+      {
+        "Asset ID": "CRM-FORM-00 6",
+        "Client": "CityRide Mobility",
+        "Format": "Scanned PDF",
+        "Pages/Rows": "4 pages",
+        "Expected extraction": "OCR fields, checkbox",
+        "Notes": "Low contrast and slight rotation"
+      },
+      {
+        "Asset ID": "KB-RUN-007",
+        "Client": "Shared",
+        "Format": "Markdown",
+        "Pages/Rows": "14 files",
+        "Expected extraction": "Runbook sections",
+        "Notes": "Good for heading-based chunks"
+      },
+      {
+        "Asset ID": "WEB-FAQ-008",
+        "Client": "Shared",
+        "Format": "HTML",
+        "Pages/Rows": "23 pages",
+        "Expected extraction": "FAQ content, links",
+        "Notes": "Needs boilerplate removal"
+      }
+    ],
+    "row_count": 8,
+    "column_count": 6,
+    "markdown": "| Asset ID       | Client            | Format      | Pages/Rows   | Expected extraction          | Notes                                    |\n|:---------------|:------------------|:------------|:-------------|:-----------------------------|:-----------------------------------------|\n| ARK-MSA-001    | Arka Finance      | PDF         | 32 pages     | Clauses, tables, signatures  | Born-digital text with footer references |\n| ARK-DPA-002    | Arka Finance      | DOCX        | 18 pages     | Headings, lists, tables      | Track changes removed before ingestion   |\n| BLR-PRICE-00 3 | BlueLeaf Retail   | XLSX        | 12 sheets    | Rate cards, discounts        | Merged cells and formulas                |\n| BLR-SLA-004    | BlueLeaf Retail   | PDF         | 9 pages      | SLA table, escalation matrix | Table crosses page boundary              |\n| CRM-OPS-005    | CityRide Mobility | CSV         | 48,200 rows  | Incident records             | Needs column type normalization          |\n| CRM-FORM-00 6  | CityRide Mobility | Scanned PDF | 4 pages      | OCR fields, checkbox         | Low contrast and slight rotation         |\n| KB-RUN-007     | Shared            | Markdown    | 14 files     | Runbook sections             | Good for heading-based chunks            |\n| WEB-FAQ-008    | Shared            | HTML        | 23 pages     | FAQ content, links           | Needs boilerplate removal                |",
+    "csv": "Asset ID,Client,Format,Pages/Rows,Expected extraction,Notes\r\nARK-MSA-001,Arka Finance,PDF,32 pages,\"Clauses, tables, signatures\",Born-digital text with footer references\r\nARK-DPA-002,Arka Finance,DOCX,18 pages,\"Headings, lists, tables\",Track changes removed before ingestion\r\nBLR-PRICE-00 3,BlueLeaf Retail,XLSX,12 sheets,\"Rate cards, discounts\",Merged cells and formulas\r\nBLR-SLA-004,BlueLeaf Retail,PDF,9 pages,\"SLA table, escalation matrix\",Table crosses page boundary\r\nCRM-OPS-005,CityRide Mobility,CSV,\"48,200 rows\",Incident records,Needs column type normalization\r\nCRM-FORM-00 6,CityRide Mobility,Scanned PDF,4 pages,\"OCR fields, checkbox\",Low contrast and slight rotation\r\nKB-RUN-007,Shared,Markdown,14 files,Runbook sections,Good for heading-based chunks\r\nWEB-FAQ-008,Shared,HTML,23 pages,\"FAQ content, links\",Needs boilerplate removal\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 3\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 6\nNUMBER OF DATA ROWS: 8\n\nTABLE COLUMNS:\nAsset ID, Client, Format, Pages/Rows, Expected extraction, Notes\n\nROW 1:\nAsset ID = ARK-MSA-001 | Client = Arka Finance | Format = PDF | Pages/Rows = 32 pages | Expected extraction = Clauses, tables, signatures | Notes = Born-digital text with footer references\n\nROW 2:\nAsset ID = ARK-DPA-002 | Client = Arka Finance | Format = DOCX | Pages/Rows = 18 pages | Expected extraction = Headings, lists, tables | Notes = Track changes removed before ingestion\n\nROW 3:\nAsset ID = BLR-PRICE-00 3 | Client = BlueLeaf Retail | Format = XLSX | Pages/Rows = 12 sheets | Expected extraction = Rate cards, discounts | Notes = Merged cells and formulas\n\nROW 4:\nAsset ID = BLR-SLA-004 | Client = BlueLeaf Retail | Format = PDF | Pages/Rows = 9 pages | Expected extraction = SLA table, escalation matrix | Notes = Table crosses page boundary\n\nROW 5:\nAsset ID = CRM-OPS-005 | Client = CityRide Mobility | Format = CSV | Pages/Rows = 48,200 rows | Expected extraction = Incident records | Notes = Needs column type normalization\n\nROW 6:\nAsset ID = CRM-FORM-00 6 | Client = CityRide Mobility | Format = Scanned PDF | Pages/Rows = 4 pages | Expected extraction = OCR fields, checkbox | Notes = Low contrast and slight rotation\n\nROW 7:\nAsset ID = KB-RUN-007 | Client = Shared | Format = Markdown | Pages/Rows = 14 files | Expected extraction = Runbook sections | Notes = Good for heading-based chunks\n\nROW 8:\nAsset ID = WEB-FAQ-008 | Client = Shared | Format = HTML | Pages/Rows = 23 pages | Expected extraction = FAQ content, links | Notes = Needs boilerplate removal"
+  },
+  {
+    "page_number": 4,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Clause",
+        "Short name",
+        "Owner",
+        "Trigger",
+        "Required action",
+        "Citation hint"
+      ],
+      [
+        "7.2",
+        "Confidentiality",
+        "Receiving Party",
+        "Receipt of confidential material",
+        "Protect information with reasonable care and equivalent internal controls",
+        "Page 4, clause 7.2"
+      ],
+      [
+        "9.1",
+        "Data residency",
+        "Service Provider",
+        "SOW specifies region",
+        "Process production records only in approved region",
+        "Page 4, clause 9.1"
+      ],
+      [
+        "11.4",
+        "Termination assistance",
+        "Service Provider",
+        "Agreement termination",
+        "Provide export window for 30 days",
+        "Page 4, clause 11.4"
+      ]
+    ],
+    "headers": [
+      "Clause",
+      "Short name",
+      "Owner",
+      "Trigger",
+      "Required action",
+      "Citation hint"
+    ],
+    "rows": [
+      {
+        "Clause": "7.2",
+        "Short name": "Confidentiality",
+        "Owner": "Receiving Party",
+        "Trigger": "Receipt of confidential material",
+        "Required action": "Protect information with reasonable care and equivalent internal controls",
+        "Citation hint": "Page 4, clause 7.2"
+      },
+      {
+        "Clause": "9.1",
+        "Short name": "Data residency",
+        "Owner": "Service Provider",
+        "Trigger": "SOW specifies region",
+        "Required action": "Process production records only in approved region",
+        "Citation hint": "Page 4, clause 9.1"
+      },
+      {
+        "Clause": "11.4",
+        "Short name": "Termination assistance",
+        "Owner": "Service Provider",
+        "Trigger": "Agreement termination",
+        "Required action": "Provide export window for 30 days",
+        "Citation hint": "Page 4, clause 11.4"
+      }
+    ],
+    "row_count": 3,
+    "column_count": 6,
+    "markdown": "|   Clause | Short name             | Owner            | Trigger                          | Required action                                                           | Citation hint       |\n|---------:|:-----------------------|:-----------------|:---------------------------------|:--------------------------------------------------------------------------|:--------------------|\n|      7.2 | Confidentiality        | Receiving Party  | Receipt of confidential material | Protect information with reasonable care and equivalent internal controls | Page 4, clause 7.2  |\n|      9.1 | Data residency         | Service Provider | SOW specifies region             | Process production records only in approved region                        | Page 4, clause 9.1  |\n|     11.4 | Termination assistance | Service Provider | Agreement termination            | Provide export window for 30 days                                         | Page 4, clause 11.4 |",
+    "csv": "Clause,Short name,Owner,Trigger,Required action,Citation hint\r\n7.2,Confidentiality,Receiving Party,Receipt of confidential material,Protect information with reasonable care and equivalent internal controls,\"Page 4, clause 7.2\"\r\n9.1,Data residency,Service Provider,SOW specifies region,Process production records only in approved region,\"Page 4, clause 9.1\"\r\n11.4,Termination assistance,Service Provider,Agreement termination,Provide export window for 30 days,\"Page 4, clause 11.4\"\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 4\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 6\nNUMBER OF DATA ROWS: 3\n\nTABLE COLUMNS:\nClause, Short name, Owner, Trigger, Required action, Citation hint\n\nROW 1:\nClause = 7.2 | Short name = Confidentiality | Owner = Receiving Party | Trigger = Receipt of confidential material | Required action = Protect information with reasonable care and equivalent internal controls | Citation hint = Page 4, clause 7.2\n\nROW 2:\nClause = 9.1 | Short name = Data residency | Owner = Service Provider | Trigger = SOW specifies region | Required action = Process production records only in approved region | Citation hint = Page 4, clause 9.1\n\nROW 3:\nClause = 11.4 | Short name = Termination assistance | Owner = Service Provider | Trigger = Agreement termination | Required action = Provide export window for 30 days | Citation hint = Page 4, clause 11.4"
+  },
+  {
+    "page_number": 5,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Policy Area",
+        "Rule",
+        "Owner",
+        "Review Cycle"
+      ],
+      [
+        "Refunds",
+        "Refund requests must be raised within 7 days of purchase.",
+        "Customer Support",
+        "Quarterly"
+      ],
+      [
+        "Data Export",
+        "Client admins can request export in CSV or JSON format.",
+        "Platform Ops",
+        "Monthly"
+      ],
+      [
+        "Access Review",
+        "Privileged access must be reviewed every 30 days.",
+        "Security",
+        "Monthly"
+      ],
+      [
+        "Incident Response",
+        "Critical incidents require acknowledgement within 30 minutes.",
+        "SRE",
+        "After each incident"
+      ],
+      [
+        "Vendor Review",
+        "High-risk vendors require annual risk assessment.",
+        "Procurement",
+        "Annual"
+      ]
+    ],
+    "headers": [
+      "Policy Area",
+      "Rule",
+      "Owner",
+      "Review Cycle"
+    ],
+    "rows": [
+      {
+        "Policy Area": "Refunds",
+        "Rule": "Refund requests must be raised within 7 days of purchase.",
+        "Owner": "Customer Support",
+        "Review Cycle": "Quarterly"
+      },
+      {
+        "Policy Area": "Data Export",
+        "Rule": "Client admins can request export in CSV or JSON format.",
+        "Owner": "Platform Ops",
+        "Review Cycle": "Monthly"
+      },
+      {
+        "Policy Area": "Access Review",
+        "Rule": "Privileged access must be reviewed every 30 days.",
+        "Owner": "Security",
+        "Review Cycle": "Monthly"
+      },
+      {
+        "Policy Area": "Incident Response",
+        "Rule": "Critical incidents require acknowledgement within 30 minutes.",
+        "Owner": "SRE",
+        "Review Cycle": "After each incident"
+      },
+      {
+        "Policy Area": "Vendor Review",
+        "Rule": "High-risk vendors require annual risk assessment.",
+        "Owner": "Procurement",
+        "Review Cycle": "Annual"
+      }
+    ],
+    "row_count": 5,
+    "column_count": 4,
+    "markdown": "| Policy Area       | Rule                                                          | Owner            | Review Cycle        |\n|:------------------|:--------------------------------------------------------------|:-----------------|:--------------------|\n| Refunds           | Refund requests must be raised within 7 days of purchase.     | Customer Support | Quarterly           |\n| Data Export       | Client admins can request export in CSV or JSON format.       | Platform Ops     | Monthly             |\n| Access Review     | Privileged access must be reviewed every 30 days.             | Security         | Monthly             |\n| Incident Response | Critical incidents require acknowledgement within 30 minutes. | SRE              | After each incident |\n| Vendor Review     | High-risk vendors require annual risk assessment.             | Procurement      | Annual              |",
+    "csv": "Policy Area,Rule,Owner,Review Cycle\r\nRefunds,Refund requests must be raised within 7 days of purchase.,Customer Support,Quarterly\r\nData Export,Client admins can request export in CSV or JSON format.,Platform Ops,Monthly\r\nAccess Review,Privileged access must be reviewed every 30 days.,Security,Monthly\r\nIncident Response,Critical incidents require acknowledgement within 30 minutes.,SRE,After each incident\r\nVendor Review,High-risk vendors require annual risk assessment.,Procurement,Annual\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 5\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 4\nNUMBER OF DATA ROWS: 5\n\nTABLE COLUMNS:\nPolicy Area, Rule, Owner, Review Cycle\n\nROW 1:\nPolicy Area = Refunds | Rule = Refund requests must be raised within 7 days of purchase. | Owner = Customer Support | Review Cycle = Quarterly\n\nROW 2:\nPolicy Area = Data Export | Rule = Client admins can request export in CSV or JSON format. | Owner = Platform Ops | Review Cycle = Monthly\n\nROW 3:\nPolicy Area = Access Review | Rule = Privileged access must be reviewed every 30 days. | Owner = Security | Review Cycle = Monthly\n\nROW 4:\nPolicy Area = Incident Response | Rule = Critical incidents require acknowledgement within 30 minutes. | Owner = SRE | Review Cycle = After each incident\n\nROW 5:\nPolicy Area = Vendor Review | Rule = High-risk vendors require annual risk assessment. | Owner = Procurement | Review Cycle = Annual"
+  },
+  {
+    "page_number": 6,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Service Category",
+        "Severity",
+        "Response Target",
+        "Resolution Target",
+        "Service Credit",
+        "Evidence Required"
+      ],
+      [
+        "API Availability",
+        "P1 - complete outage",
+        "15 minutes",
+        "4 hours",
+        "10 percent monthly fee credit",
+        "Monitoring logs and incident ticket"
+      ],
+      [
+        "API Availability",
+        "P2 - degraded performance",
+        "30 minutes",
+        "8 hours",
+        "5 percent monthly fee credit",
+        "Latency dashboard and affected endpoint list"
+      ],
+      [
+        "Data Pipeline",
+        "P1 - ingestion stopped",
+        "20 minutes",
+        "6 hours",
+        "8 percent pipeline fee credit",
+        "Queue depth, failed job IDs, replay report"
+      ],
+      [
+        "Data Pipeline",
+        "P3 - delayed batch",
+        "4 hours",
+        "Next business day",
+        "No automatic credit",
+        "Batch ID and SLA exception note"
+      ],
+      [
+        "Support",
+        "P2 - urgent support",
+        "1 hour",
+        "1 business day",
+        "2 percent support fee credit",
+        "Support ticket with timestamps"
+      ]
+    ],
+    "headers": [
+      "Service Category",
+      "Severity",
+      "Response Target",
+      "Resolution Target",
+      "Service Credit",
+      "Evidence Required"
+    ],
+    "rows": [
+      {
+        "Service Category": "API Availability",
+        "Severity": "P1 - complete outage",
+        "Response Target": "15 minutes",
+        "Resolution Target": "4 hours",
+        "Service Credit": "10 percent monthly fee credit",
+        "Evidence Required": "Monitoring logs and incident ticket"
+      },
+      {
+        "Service Category": "API Availability",
+        "Severity": "P2 - degraded performance",
+        "Response Target": "30 minutes",
+        "Resolution Target": "8 hours",
+        "Service Credit": "5 percent monthly fee credit",
+        "Evidence Required": "Latency dashboard and affected endpoint list"
+      },
+      {
+        "Service Category": "Data Pipeline",
+        "Severity": "P1 - ingestion stopped",
+        "Response Target": "20 minutes",
+        "Resolution Target": "6 hours",
+        "Service Credit": "8 percent pipeline fee credit",
+        "Evidence Required": "Queue depth, failed job IDs, replay report"
+      },
+      {
+        "Service Category": "Data Pipeline",
+        "Severity": "P3 - delayed batch",
+        "Response Target": "4 hours",
+        "Resolution Target": "Next business day",
+        "Service Credit": "No automatic credit",
+        "Evidence Required": "Batch ID and SLA exception note"
+      },
+      {
+        "Service Category": "Support",
+        "Severity": "P2 - urgent support",
+        "Response Target": "1 hour",
+        "Resolution Target": "1 business day",
+        "Service Credit": "2 percent support fee credit",
+        "Evidence Required": "Support ticket with timestamps"
+      }
+    ],
+    "row_count": 5,
+    "column_count": 6,
+    "markdown": "| Service Category   | Severity                  | Response Target   | Resolution Target   | Service Credit                | Evidence Required                            |\n|:-------------------|:--------------------------|:------------------|:--------------------|:------------------------------|:---------------------------------------------|\n| API Availability   | P1 - complete outage      | 15 minutes        | 4 hours             | 10 percent monthly fee credit | Monitoring logs and incident ticket          |\n| API Availability   | P2 - degraded performance | 30 minutes        | 8 hours             | 5 percent monthly fee credit  | Latency dashboard and affected endpoint list |\n| Data Pipeline      | P1 - ingestion stopped    | 20 minutes        | 6 hours             | 8 percent pipeline fee credit | Queue depth, failed job IDs, replay report   |\n| Data Pipeline      | P3 - delayed batch        | 4 hours           | Next business day   | No automatic credit           | Batch ID and SLA exception note              |\n| Support            | P2 - urgent support       | 1 hour            | 1 business day      | 2 percent support fee credit  | Support ticket with timestamps               |",
+    "csv": "Service Category,Severity,Response Target,Resolution Target,Service Credit,Evidence Required\r\nAPI Availability,P1 - complete outage,15 minutes,4 hours,10 percent monthly fee credit,Monitoring logs and incident ticket\r\nAPI Availability,P2 - degraded performance,30 minutes,8 hours,5 percent monthly fee credit,Latency dashboard and affected endpoint list\r\nData Pipeline,P1 - ingestion stopped,20 minutes,6 hours,8 percent pipeline fee credit,\"Queue depth, failed job IDs, replay report\"\r\nData Pipeline,P3 - delayed batch,4 hours,Next business day,No automatic credit,Batch ID and SLA exception note\r\nSupport,P2 - urgent support,1 hour,1 business day,2 percent support fee credit,Support ticket with timestamps\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 6\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 6\nNUMBER OF DATA ROWS: 5\n\nTABLE COLUMNS:\nService Category, Severity, Response Target, Resolution Target, Service Credit, Evidence Required\n\nROW 1:\nService Category = API Availability | Severity = P1 - complete outage | Response Target = 15 minutes | Resolution Target = 4 hours | Service Credit = 10 percent monthly fee credit | Evidence Required = Monitoring logs and incident ticket\n\nROW 2:\nService Category = API Availability | Severity = P2 - degraded performance | Response Target = 30 minutes | Resolution Target = 8 hours | Service Credit = 5 percent monthly fee credit | Evidence Required = Latency dashboard and affected endpoint list\n\nROW 3:\nService Category = Data Pipeline | Severity = P1 - ingestion stopped | Response Target = 20 minutes | Resolution Target = 6 hours | Service Credit = 8 percent pipeline fee credit | Evidence Required = Queue depth, failed job IDs, replay report\n\nROW 4:\nService Category = Data Pipeline | Severity = P3 - delayed batch | Response Target = 4 hours | Resolution Target = Next business day | Service Credit = No automatic credit | Evidence Required = Batch ID and SLA exception note\n\nROW 5:\nService Category = Support | Severity = P2 - urgent support | Response Target = 1 hour | Resolution Target = 1 business day | Service Credit = 2 percent support fee credit | Evidence Required = Support ticket with timestamps"
+  },
+  {
+    "page_number": 7,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Image element",
+        "Potential extraction method",
+        "Expected output"
+      ],
+      [
+        "Box labels",
+        "OCR or vision model",
+        "Raw Files, Parser, Chunks, Vector DB"
+      ],
+      [
+        "Arrows",
+        "Layout or vision understanding",
+        "Processing order"
+      ],
+      [
+        "Caption",
+        "Normal PDF text extraction",
+        "Description of the diagram"
+      ]
+    ],
+    "headers": [
+      "Image element",
+      "Potential extraction method",
+      "Expected output"
+    ],
+    "rows": [
+      {
+        "Image element": "Box labels",
+        "Potential extraction method": "OCR or vision model",
+        "Expected output": "Raw Files, Parser, Chunks, Vector DB"
+      },
+      {
+        "Image element": "Arrows",
+        "Potential extraction method": "Layout or vision understanding",
+        "Expected output": "Processing order"
+      },
+      {
+        "Image element": "Caption",
+        "Potential extraction method": "Normal PDF text extraction",
+        "Expected output": "Description of the diagram"
+      }
+    ],
+    "row_count": 3,
+    "column_count": 3,
+    "markdown": "| Image element   | Potential extraction method    | Expected output                      |\n|:----------------|:-------------------------------|:-------------------------------------|\n| Box labels      | OCR or vision model            | Raw Files, Parser, Chunks, Vector DB |\n| Arrows          | Layout or vision understanding | Processing order                     |\n| Caption         | Normal PDF text extraction     | Description of the diagram           |",
+    "csv": "Image element,Potential extraction method,Expected output\r\nBox labels,OCR or vision model,\"Raw Files, Parser, Chunks, Vector DB\"\r\nArrows,Layout or vision understanding,Processing order\r\nCaption,Normal PDF text extraction,Description of the diagram\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 7\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 3\n\nTABLE COLUMNS:\nImage element, Potential extraction method, Expected output\n\nROW 1:\nImage element = Box labels | Potential extraction method = OCR or vision model | Expected output = Raw Files, Parser, Chunks, Vector DB\n\nROW 2:\nImage element = Arrows | Potential extraction method = Layout or vision understanding | Expected output = Processing order\n\nROW 3:\nImage element = Caption | Potential extraction method = Normal PDF text extraction | Expected output = Description of the diagram"
+  },
+  {
+    "page_number": 8,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Runbook field",
+        "Value",
+        "Parsing expectation"
+      ],
+      [
+        "Title",
+        "Contract Ingestion Failure",
+        "Should become section title metadata"
+      ],
+      [
+        "Symptoms",
+        "Five bullet items",
+        "Should remain as list or separate lines"
+      ],
+      [
+        "Recovery Steps",
+        "Numbered sequence",
+        "Order must be preserved"
+      ]
+    ],
+    "headers": [
+      "Runbook field",
+      "Value",
+      "Parsing expectation"
+    ],
+    "rows": [
+      {
+        "Runbook field": "Title",
+        "Value": "Contract Ingestion Failure",
+        "Parsing expectation": "Should become section title metadata"
+      },
+      {
+        "Runbook field": "Symptoms",
+        "Value": "Five bullet items",
+        "Parsing expectation": "Should remain as list or separate lines"
+      },
+      {
+        "Runbook field": "Recovery Steps",
+        "Value": "Numbered sequence",
+        "Parsing expectation": "Order must be preserved"
+      }
+    ],
+    "row_count": 3,
+    "column_count": 3,
+    "markdown": "| Runbook field   | Value                      | Parsing expectation                     |\n|:----------------|:---------------------------|:----------------------------------------|\n| Title           | Contract Ingestion Failure | Should become section title metadata    |\n| Symptoms        | Five bullet items          | Should remain as list or separate lines |\n| Recovery Steps  | Numbered sequence          | Order must be preserved                 |",
+    "csv": "Runbook field,Value,Parsing expectation\r\nTitle,Contract Ingestion Failure,Should become section title metadata\r\nSymptoms,Five bullet items,Should remain as list or separate lines\r\nRecovery Steps,Numbered sequence,Order must be preserved\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 8\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 3\n\nTABLE COLUMNS:\nRunbook field, Value, Parsing expectation\n\nROW 1:\nRunbook field = Title | Value = Contract Ingestion Failure | Parsing expectation = Should become section title metadata\n\nROW 2:\nRunbook field = Symptoms | Value = Five bullet items | Parsing expectation = Should remain as list or separate lines\n\nROW 3:\nRunbook field = Recovery Steps | Value = Numbered sequence | Parsing expectation = Order must be preserved"
+  },
+  {
+    "page_number": 9,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Field",
+        "Expected OCR value",
+        "Validation rule"
+      ],
+      [
+        "Client Name",
+        "BlueLeaf Retail Pvt Ltd",
+        "Must match known client list"
+      ],
+      [
+        "Contract ID",
+        "BLR-MSA-2026-019",
+        "Pattern: client-code + type + year + sequence"
+      ],
+      [
+        "Effective Date",
+        "01 Apr 2026",
+        "Date parser should normalize to ISO format"
+      ],
+      [
+        "Approval checkbox",
+        "Checked",
+        "Boolean extraction required"
+      ]
+    ],
+    "headers": [
+      "Field",
+      "Expected OCR value",
+      "Validation rule"
+    ],
+    "rows": [
+      {
+        "Field": "Client Name",
+        "Expected OCR value": "BlueLeaf Retail Pvt Ltd",
+        "Validation rule": "Must match known client list"
+      },
+      {
+        "Field": "Contract ID",
+        "Expected OCR value": "BLR-MSA-2026-019",
+        "Validation rule": "Pattern: client-code + type + year + sequence"
+      },
+      {
+        "Field": "Effective Date",
+        "Expected OCR value": "01 Apr 2026",
+        "Validation rule": "Date parser should normalize to ISO format"
+      },
+      {
+        "Field": "Approval checkbox",
+        "Expected OCR value": "Checked",
+        "Validation rule": "Boolean extraction required"
+      }
+    ],
+    "row_count": 4,
+    "column_count": 3,
+    "markdown": "| Field             | Expected OCR value      | Validation rule                               |\n|:------------------|:------------------------|:----------------------------------------------|\n| Client Name       | BlueLeaf Retail Pvt Ltd | Must match known client list                  |\n| Contract ID       | BLR-MSA-2026-019        | Pattern: client-code + type + year + sequence |\n| Effective Date    | 01 Apr 2026             | Date parser should normalize to ISO format    |\n| Approval checkbox | Checked                 | Boolean extraction required                   |",
+    "csv": "Field,Expected OCR value,Validation rule\r\nClient Name,BlueLeaf Retail Pvt Ltd,Must match known client list\r\nContract ID,BLR-MSA-2026-019,Pattern: client-code + type + year + sequence\r\nEffective Date,01 Apr 2026,Date parser should normalize to ISO format\r\nApproval checkbox,Checked,Boolean extraction required\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 9\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 4\n\nTABLE COLUMNS:\nField, Expected OCR value, Validation rule\n\nROW 1:\nField = Client Name | Expected OCR value = BlueLeaf Retail Pvt Ltd | Validation rule = Must match known client list\n\nROW 2:\nField = Contract ID | Expected OCR value = BLR-MSA-2026-019 | Validation rule = Pattern: client-code + type + year + sequence\n\nROW 3:\nField = Effective Date | Expected OCR value = 01 Apr 2026 | Validation rule = Date parser should normalize to ISO format\n\nROW 4:\nField = Approval checkbox | Expected OCR value = Checked | Validation rule = Boolean extraction required"
+  },
+  {
+    "page_number": 10,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "document_id",
+        "document_type",
+        "contract_group_id",
+        "effective_date",
+        "relationship"
+      ],
+      [
+        "BLR-MSA-001",
+        "Master Service Agreement",
+        "BLR-ACME-2026",
+        "2026-04-01",
+        "Base commercial agreement"
+      ],
+      [
+        "BLR-NDA-002",
+        "NDA",
+        "BLR-ACME-2026",
+        "2026-04-01",
+        "Confidentiality terms"
+      ],
+      [
+        "BLR-SOW-003",
+        "Statement of Work",
+        "BLR-ACME-2026",
+        "2026-04-15",
+        "Project scope and deliverables"
+      ],
+      [
+        "BLR-PRICE-004",
+        "Pricing Amendment",
+        "BLR-ACME-2026",
+        "2026-05-01",
+        "Updated pricing and discount tiers"
+      ],
+      [
+        "BLR-SLA-005",
+        "Support SLA",
+        "BLR-ACME-2026",
+        "2026-05-10",
+        "Support response and credits"
+      ]
+    ],
+    "headers": [
+      "document_id",
+      "document_type",
+      "contract_group_id",
+      "effective_date",
+      "relationship"
+    ],
+    "rows": [
+      {
+        "document_id": "BLR-MSA-001",
+        "document_type": "Master Service Agreement",
+        "contract_group_id": "BLR-ACME-2026",
+        "effective_date": "2026-04-01",
+        "relationship": "Base commercial agreement"
+      },
+      {
+        "document_id": "BLR-NDA-002",
+        "document_type": "NDA",
+        "contract_group_id": "BLR-ACME-2026",
+        "effective_date": "2026-04-01",
+        "relationship": "Confidentiality terms"
+      },
+      {
+        "document_id": "BLR-SOW-003",
+        "document_type": "Statement of Work",
+        "contract_group_id": "BLR-ACME-2026",
+        "effective_date": "2026-04-15",
+        "relationship": "Project scope and deliverables"
+      },
+      {
+        "document_id": "BLR-PRICE-004",
+        "document_type": "Pricing Amendment",
+        "contract_group_id": "BLR-ACME-2026",
+        "effective_date": "2026-05-01",
+        "relationship": "Updated pricing and discount tiers"
+      },
+      {
+        "document_id": "BLR-SLA-005",
+        "document_type": "Support SLA",
+        "contract_group_id": "BLR-ACME-2026",
+        "effective_date": "2026-05-10",
+        "relationship": "Support response and credits"
+      }
+    ],
+    "row_count": 5,
+    "column_count": 5,
+    "markdown": "| document_id   | document_type            | contract_group_id   | effective_date   | relationship                       |\n|:--------------|:-------------------------|:--------------------|:-----------------|:-----------------------------------|\n| BLR-MSA-001   | Master Service Agreement | BLR-ACME-2026       | 2026-04-01       | Base commercial agreement          |\n| BLR-NDA-002   | NDA                      | BLR-ACME-2026       | 2026-04-01       | Confidentiality terms              |\n| BLR-SOW-003   | Statement of Work        | BLR-ACME-2026       | 2026-04-15       | Project scope and deliverables     |\n| BLR-PRICE-004 | Pricing Amendment        | BLR-ACME-2026       | 2026-05-01       | Updated pricing and discount tiers |\n| BLR-SLA-005   | Support SLA              | BLR-ACME-2026       | 2026-05-10       | Support response and credits       |",
+    "csv": "document_id,document_type,contract_group_id,effective_date,relationship\r\nBLR-MSA-001,Master Service Agreement,BLR-ACME-2026,2026-04-01,Base commercial agreement\r\nBLR-NDA-002,NDA,BLR-ACME-2026,2026-04-01,Confidentiality terms\r\nBLR-SOW-003,Statement of Work,BLR-ACME-2026,2026-04-15,Project scope and deliverables\r\nBLR-PRICE-004,Pricing Amendment,BLR-ACME-2026,2026-05-01,Updated pricing and discount tiers\r\nBLR-SLA-005,Support SLA,BLR-ACME-2026,2026-05-10,Support response and credits\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 10\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 5\nNUMBER OF DATA ROWS: 5\n\nTABLE COLUMNS:\ndocument_id, document_type, contract_group_id, effective_date, relationship\n\nROW 1:\ndocument_id = BLR-MSA-001 | document_type = Master Service Agreement | contract_group_id = BLR-ACME-2026 | effective_date = 2026-04-01 | relationship = Base commercial agreement\n\nROW 2:\ndocument_id = BLR-NDA-002 | document_type = NDA | contract_group_id = BLR-ACME-2026 | effective_date = 2026-04-01 | relationship = Confidentiality terms\n\nROW 3:\ndocument_id = BLR-SOW-003 | document_type = Statement of Work | contract_group_id = BLR-ACME-2026 | effective_date = 2026-04-15 | relationship = Project scope and deliverables\n\nROW 4:\ndocument_id = BLR-PRICE-004 | document_type = Pricing Amendment | contract_group_id = BLR-ACME-2026 | effective_date = 2026-05-01 | relationship = Updated pricing and discount tiers\n\nROW 5:\ndocument_id = BLR-SLA-005 | document_type = Support SLA | contract_group_id = BLR-ACME-2026 | effective_date = 2026-05-10 | relationship = Support response and credits"
+  },
+  {
+    "page_number": 11,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Layer",
+        "Control",
+        "Failure mode if missing"
+      ],
+      [
+        "Authentication",
+        "Identify user and organization",
+        "Unknown user may access application"
+      ],
+      [
+        "Authorization",
+        "Map user to client_id and role",
+        "User may retrieve another clients documents"
+      ],
+      [
+        "Vector retrieval",
+        "Filter by client_id or namespace",
+        "Retriever may return unauthorized chunks"
+      ],
+      [
+        "Prompt construction",
+        "Send only allowed context",
+        "LLM may see sensitive data"
+      ],
+      [
+        "Audit logging",
+        "Record query, source chunks, user_id",
+        "No traceability during incident review"
+      ]
+    ],
+    "headers": [
+      "Layer",
+      "Control",
+      "Failure mode if missing"
+    ],
+    "rows": [
+      {
+        "Layer": "Authentication",
+        "Control": "Identify user and organization",
+        "Failure mode if missing": "Unknown user may access application"
+      },
+      {
+        "Layer": "Authorization",
+        "Control": "Map user to client_id and role",
+        "Failure mode if missing": "User may retrieve another clients documents"
+      },
+      {
+        "Layer": "Vector retrieval",
+        "Control": "Filter by client_id or namespace",
+        "Failure mode if missing": "Retriever may return unauthorized chunks"
+      },
+      {
+        "Layer": "Prompt construction",
+        "Control": "Send only allowed context",
+        "Failure mode if missing": "LLM may see sensitive data"
+      },
+      {
+        "Layer": "Audit logging",
+        "Control": "Record query, source chunks, user_id",
+        "Failure mode if missing": "No traceability during incident review"
+      }
+    ],
+    "row_count": 5,
+    "column_count": 3,
+    "markdown": "| Layer               | Control                              | Failure mode if missing                     |\n|:--------------------|:-------------------------------------|:--------------------------------------------|\n| Authentication      | Identify user and organization       | Unknown user may access application         |\n| Authorization       | Map user to client_id and role       | User may retrieve another clients documents |\n| Vector retrieval    | Filter by client_id or namespace     | Retriever may return unauthorized chunks    |\n| Prompt construction | Send only allowed context            | LLM may see sensitive data                  |\n| Audit logging       | Record query, source chunks, user_id | No traceability during incident review      |",
+    "csv": "Layer,Control,Failure mode if missing\r\nAuthentication,Identify user and organization,Unknown user may access application\r\nAuthorization,Map user to client_id and role,User may retrieve another clients documents\r\nVector retrieval,Filter by client_id or namespace,Retriever may return unauthorized chunks\r\nPrompt construction,Send only allowed context,LLM may see sensitive data\r\nAudit logging,\"Record query, source chunks, user_id\",No traceability during incident review\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 11\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 5\n\nTABLE COLUMNS:\nLayer, Control, Failure mode if missing\n\nROW 1:\nLayer = Authentication | Control = Identify user and organization | Failure mode if missing = Unknown user may access application\n\nROW 2:\nLayer = Authorization | Control = Map user to client_id and role | Failure mode if missing = User may retrieve another clients documents\n\nROW 3:\nLayer = Vector retrieval | Control = Filter by client_id or namespace | Failure mode if missing = Retriever may return unauthorized chunks\n\nROW 4:\nLayer = Prompt construction | Control = Send only allowed context | Failure mode if missing = LLM may see sensitive data\n\nROW 5:\nLayer = Audit logging | Control = Record query, source chunks, user_id | Failure mode if missing = No traceability during incident review"
+  },
+  {
+    "page_number": 12,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Observation",
+        "Supporting value",
+        "Scheduling implication"
+      ],
+      [
+        "Prime Friday performs best",
+        "93 retention score",
+        "Place premium content in Friday late/prime slots"
+      ],
+      [
+        "Early week late slots underperform",
+        "10 to 21 score range",
+        "Avoid launching new series in weak slots"
+      ],
+      [
+        "Evening improves midweek",
+        "77 on Wednesday evening",
+        "Use midweek evening for discovery content"
+      ]
+    ],
+    "headers": [
+      "Observation",
+      "Supporting value",
+      "Scheduling implication"
+    ],
+    "rows": [
+      {
+        "Observation": "Prime Friday performs best",
+        "Supporting value": "93 retention score",
+        "Scheduling implication": "Place premium content in Friday late/prime slots"
+      },
+      {
+        "Observation": "Early week late slots underperform",
+        "Supporting value": "10 to 21 score range",
+        "Scheduling implication": "Avoid launching new series in weak slots"
+      },
+      {
+        "Observation": "Evening improves midweek",
+        "Supporting value": "77 on Wednesday evening",
+        "Scheduling implication": "Use midweek evening for discovery content"
+      }
+    ],
+    "row_count": 3,
+    "column_count": 3,
+    "markdown": "| Observation                        | Supporting value        | Scheduling implication                           |\n|:-----------------------------------|:------------------------|:-------------------------------------------------|\n| Prime Friday performs best         | 93 retention score      | Place premium content in Friday late/prime slots |\n| Early week late slots underperform | 10 to 21 score range    | Avoid launching new series in weak slots         |\n| Evening improves midweek           | 77 on Wednesday evening | Use midweek evening for discovery content        |",
+    "csv": "Observation,Supporting value,Scheduling implication\r\nPrime Friday performs best,93 retention score,Place premium content in Friday late/prime slots\r\nEarly week late slots underperform,10 to 21 score range,Avoid launching new series in weak slots\r\nEvening improves midweek,77 on Wednesday evening,Use midweek evening for discovery content\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 12\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 3\n\nTABLE COLUMNS:\nObservation, Supporting value, Scheduling implication\n\nROW 1:\nObservation = Prime Friday performs best | Supporting value = 93 retention score | Scheduling implication = Place premium content in Friday late/prime slots\n\nROW 2:\nObservation = Early week late slots underperform | Supporting value = 10 to 21 score range | Scheduling implication = Avoid launching new series in weak slots\n\nROW 3:\nObservation = Evening improves midweek | Supporting value = 77 on Wednesday evening | Scheduling implication = Use midweek evening for discovery content"
+  },
+  {
+    "page_number": 13,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Test ID",
+        "Question",
+        "Expected source",
+        "Expected answer element",
+        "Failure signal"
+      ],
+      [
+        "Q-001",
+        "What is the refund window?",
+        "Policy Rules table",
+        "7 days",
+        "Answer says 30 days"
+      ],
+      [
+        "Q-002",
+        "Which clause covers data residency?",
+        "Clause 9.1",
+        "Approved processing region",
+        "No clause citation"
+      ],
+      [
+        "Q-003",
+        "What is P1 API response target?",
+        "SLA table",
+        "15 minutes",
+        "Wrong severity row"
+      ],
+      [
+        "Q-004",
+        "Which documents belong to BLR-ACME-2026?",
+        "Relationship table",
+        "Five related documents",
+        "Only one document returned"
+      ],
+      [
+        "Q-005",
+        "Who owns access review?",
+        "Policy Rules table",
+        "Security",
+        "Owner missing"
+      ]
+    ],
+    "headers": [
+      "Test ID",
+      "Question",
+      "Expected source",
+      "Expected answer element",
+      "Failure signal"
+    ],
+    "rows": [
+      {
+        "Test ID": "Q-001",
+        "Question": "What is the refund window?",
+        "Expected source": "Policy Rules table",
+        "Expected answer element": "7 days",
+        "Failure signal": "Answer says 30 days"
+      },
+      {
+        "Test ID": "Q-002",
+        "Question": "Which clause covers data residency?",
+        "Expected source": "Clause 9.1",
+        "Expected answer element": "Approved processing region",
+        "Failure signal": "No clause citation"
+      },
+      {
+        "Test ID": "Q-003",
+        "Question": "What is P1 API response target?",
+        "Expected source": "SLA table",
+        "Expected answer element": "15 minutes",
+        "Failure signal": "Wrong severity row"
+      },
+      {
+        "Test ID": "Q-004",
+        "Question": "Which documents belong to BLR-ACME-2026?",
+        "Expected source": "Relationship table",
+        "Expected answer element": "Five related documents",
+        "Failure signal": "Only one document returned"
+      },
+      {
+        "Test ID": "Q-005",
+        "Question": "Who owns access review?",
+        "Expected source": "Policy Rules table",
+        "Expected answer element": "Security",
+        "Failure signal": "Owner missing"
+      }
+    ],
+    "row_count": 5,
+    "column_count": 5,
+    "markdown": "| Test ID   | Question                                 | Expected source    | Expected answer element    | Failure signal             |\n|:----------|:-----------------------------------------|:-------------------|:---------------------------|:---------------------------|\n| Q-001     | What is the refund window?               | Policy Rules table | 7 days                     | Answer says 30 days        |\n| Q-002     | Which clause covers data residency?      | Clause 9.1         | Approved processing region | No clause citation         |\n| Q-003     | What is P1 API response target?          | SLA table          | 15 minutes                 | Wrong severity row         |\n| Q-004     | Which documents belong to BLR-ACME-2026? | Relationship table | Five related documents     | Only one document returned |\n| Q-005     | Who owns access review?                  | Policy Rules table | Security                   | Owner missing              |",
+    "csv": "Test ID,Question,Expected source,Expected answer element,Failure signal\r\nQ-001,What is the refund window?,Policy Rules table,7 days,Answer says 30 days\r\nQ-002,Which clause covers data residency?,Clause 9.1,Approved processing region,No clause citation\r\nQ-003,What is P1 API response target?,SLA table,15 minutes,Wrong severity row\r\nQ-004,Which documents belong to BLR-ACME-2026?,Relationship table,Five related documents,Only one document returned\r\nQ-005,Who owns access review?,Policy Rules table,Security,Owner missing\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 13\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 5\nNUMBER OF DATA ROWS: 5\n\nTABLE COLUMNS:\nTest ID, Question, Expected source, Expected answer element, Failure signal\n\nROW 1:\nTest ID = Q-001 | Question = What is the refund window? | Expected source = Policy Rules table | Expected answer element = 7 days | Failure signal = Answer says 30 days\n\nROW 2:\nTest ID = Q-002 | Question = Which clause covers data residency? | Expected source = Clause 9.1 | Expected answer element = Approved processing region | Failure signal = No clause citation\n\nROW 3:\nTest ID = Q-003 | Question = What is P1 API response target? | Expected source = SLA table | Expected answer element = 15 minutes | Failure signal = Wrong severity row\n\nROW 4:\nTest ID = Q-004 | Question = Which documents belong to BLR-ACME-2026? | Expected source = Relationship table | Expected answer element = Five related documents | Failure signal = Only one document returned\n\nROW 5:\nTest ID = Q-005 | Question = Who owns access review? | Expected source = Policy Rules table | Expected answer element = Security | Failure signal = Owner missing"
+  },
+  {
+    "page_number": 14,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Edge case",
+        "Example",
+        "Recommended handling"
+      ],
+      [
+        "Repeated headers and footers",
+        "Page number, confidentiality banner",
+        "Remove or store separately as metadata"
+      ],
+      [
+        "Hyphenated line breaks",
+        "termi- nation assistance",
+        "Normalize during cleaning"
+      ],
+      [
+        "Rotated tables",
+        "Landscape appendix in PDF",
+        "Use layout-aware parser or OCR"
+      ],
+      [
+        "Merged cells",
+        "Pricing table with grouped plans",
+        "Preserve hierarchy in row text"
+      ],
+      [
+        "Scanned signatures",
+        "Signature block as image",
+        "OCR if text is needed; store image reference"
+      ],
+      [
+        "Boilerplate navigation",
+        "Website header and footer",
+        "Use boilerplate removal"
+      ],
+      [
+        "Duplicate chunks",
+        "Same policy in FAQ and PDF",
+        "Deduplicate using source and hash"
+      ]
+    ],
+    "headers": [
+      "Edge case",
+      "Example",
+      "Recommended handling"
+    ],
+    "rows": [
+      {
+        "Edge case": "Repeated headers and footers",
+        "Example": "Page number, confidentiality banner",
+        "Recommended handling": "Remove or store separately as metadata"
+      },
+      {
+        "Edge case": "Hyphenated line breaks",
+        "Example": "termi- nation assistance",
+        "Recommended handling": "Normalize during cleaning"
+      },
+      {
+        "Edge case": "Rotated tables",
+        "Example": "Landscape appendix in PDF",
+        "Recommended handling": "Use layout-aware parser or OCR"
+      },
+      {
+        "Edge case": "Merged cells",
+        "Example": "Pricing table with grouped plans",
+        "Recommended handling": "Preserve hierarchy in row text"
+      },
+      {
+        "Edge case": "Scanned signatures",
+        "Example": "Signature block as image",
+        "Recommended handling": "OCR if text is needed; store image reference"
+      },
+      {
+        "Edge case": "Boilerplate navigation",
+        "Example": "Website header and footer",
+        "Recommended handling": "Use boilerplate removal"
+      },
+      {
+        "Edge case": "Duplicate chunks",
+        "Example": "Same policy in FAQ and PDF",
+        "Recommended handling": "Deduplicate using source and hash"
+      }
+    ],
+    "row_count": 7,
+    "column_count": 3,
+    "markdown": "| Edge case                    | Example                             | Recommended handling                         |\n|:-----------------------------|:------------------------------------|:---------------------------------------------|\n| Repeated headers and footers | Page number, confidentiality banner | Remove or store separately as metadata       |\n| Hyphenated line breaks       | termi- nation assistance            | Normalize during cleaning                    |\n| Rotated tables               | Landscape appendix in PDF           | Use layout-aware parser or OCR               |\n| Merged cells                 | Pricing table with grouped plans    | Preserve hierarchy in row text               |\n| Scanned signatures           | Signature block as image            | OCR if text is needed; store image reference |\n| Boilerplate navigation       | Website header and footer           | Use boilerplate removal                      |\n| Duplicate chunks             | Same policy in FAQ and PDF          | Deduplicate using source and hash            |",
+    "csv": "Edge case,Example,Recommended handling\r\nRepeated headers and footers,\"Page number, confidentiality banner\",Remove or store separately as metadata\r\nHyphenated line breaks,termi- nation assistance,Normalize during cleaning\r\nRotated tables,Landscape appendix in PDF,Use layout-aware parser or OCR\r\nMerged cells,Pricing table with grouped plans,Preserve hierarchy in row text\r\nScanned signatures,Signature block as image,OCR if text is needed; store image reference\r\nBoilerplate navigation,Website header and footer,Use boilerplate removal\r\nDuplicate chunks,Same policy in FAQ and PDF,Deduplicate using source and hash\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 14\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 7\n\nTABLE COLUMNS:\nEdge case, Example, Recommended handling\n\nROW 1:\nEdge case = Repeated headers and footers | Example = Page number, confidentiality banner | Recommended handling = Remove or store separately as metadata\n\nROW 2:\nEdge case = Hyphenated line breaks | Example = termi- nation assistance | Recommended handling = Normalize during cleaning\n\nROW 3:\nEdge case = Rotated tables | Example = Landscape appendix in PDF | Recommended handling = Use layout-aware parser or OCR\n\nROW 4:\nEdge case = Merged cells | Example = Pricing table with grouped plans | Recommended handling = Preserve hierarchy in row text\n\nROW 5:\nEdge case = Scanned signatures | Example = Signature block as image | Recommended handling = OCR if text is needed; store image reference\n\nROW 6:\nEdge case = Boilerplate navigation | Example = Website header and footer | Recommended handling = Use boilerplate removal\n\nROW 7:\nEdge case = Duplicate chunks | Example = Same policy in FAQ and PDF | Recommended handling = Deduplicate using source and hash"
+  },
+  {
+    "page_number": 15,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Checklist item",
+        "Status to verify",
+        "Why it matters"
+      ],
+      [
+        "Text extraction",
+        "Paragraphs are readable and ordered",
+        "Prevents noisy chunks"
+      ],
+      [
+        "Table extraction",
+        "Rows, columns, headers, and footnotes preserved",
+        "Protects factual answers"
+      ],
+      [
+        "Image handling",
+        "Captions indexed and OCR done if required",
+        "Avoids missing visual information"
+      ],
+      [
+        "Metadata",
+        "source, page, client_id, document_id captured",
+        "Enables citations and access control"
+      ],
+      [
+        "Chunking",
+        "Chunks preserve meaning and section boundaries",
+        "Improves retrieval relevance"
+      ],
+      [
+        "Access control",
+        "Retrieval filters use authenticated client_id",
+        "Prevents data leakage"
+      ],
+      [
+        "Evaluation",
+        "Golden questions tested with citations",
+        "Measures real answer quality"
+      ]
+    ],
+    "headers": [
+      "Checklist item",
+      "Status to verify",
+      "Why it matters"
+    ],
+    "rows": [
+      {
+        "Checklist item": "Text extraction",
+        "Status to verify": "Paragraphs are readable and ordered",
+        "Why it matters": "Prevents noisy chunks"
+      },
+      {
+        "Checklist item": "Table extraction",
+        "Status to verify": "Rows, columns, headers, and footnotes preserved",
+        "Why it matters": "Protects factual answers"
+      },
+      {
+        "Checklist item": "Image handling",
+        "Status to verify": "Captions indexed and OCR done if required",
+        "Why it matters": "Avoids missing visual information"
+      },
+      {
+        "Checklist item": "Metadata",
+        "Status to verify": "source, page, client_id, document_id captured",
+        "Why it matters": "Enables citations and access control"
+      },
+      {
+        "Checklist item": "Chunking",
+        "Status to verify": "Chunks preserve meaning and section boundaries",
+        "Why it matters": "Improves retrieval relevance"
+      },
+      {
+        "Checklist item": "Access control",
+        "Status to verify": "Retrieval filters use authenticated client_id",
+        "Why it matters": "Prevents data leakage"
+      },
+      {
+        "Checklist item": "Evaluation",
+        "Status to verify": "Golden questions tested with citations",
+        "Why it matters": "Measures real answer quality"
+      }
+    ],
+    "row_count": 7,
+    "column_count": 3,
+    "markdown": "| Checklist item   | Status to verify                                | Why it matters                       |\n|:-----------------|:------------------------------------------------|:-------------------------------------|\n| Text extraction  | Paragraphs are readable and ordered             | Prevents noisy chunks                |\n| Table extraction | Rows, columns, headers, and footnotes preserved | Protects factual answers             |\n| Image handling   | Captions indexed and OCR done if required       | Avoids missing visual information    |\n| Metadata         | source, page, client_id, document_id captured   | Enables citations and access control |\n| Chunking         | Chunks preserve meaning and section boundaries  | Improves retrieval relevance         |\n| Access control   | Retrieval filters use authenticated client_id   | Prevents data leakage                |\n| Evaluation       | Golden questions tested with citations          | Measures real answer quality         |",
+    "csv": "Checklist item,Status to verify,Why it matters\r\nText extraction,Paragraphs are readable and ordered,Prevents noisy chunks\r\nTable extraction,\"Rows, columns, headers, and footnotes preserved\",Protects factual answers\r\nImage handling,Captions indexed and OCR done if required,Avoids missing visual information\r\nMetadata,\"source, page, client_id, document_id captured\",Enables citations and access control\r\nChunking,Chunks preserve meaning and section boundaries,Improves retrieval relevance\r\nAccess control,Retrieval filters use authenticated client_id,Prevents data leakage\r\nEvaluation,Golden questions tested with citations,Measures real answer quality\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 15\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 7\n\nTABLE COLUMNS:\nChecklist item, Status to verify, Why it matters\n\nROW 1:\nChecklist item = Text extraction | Status to verify = Paragraphs are readable and ordered | Why it matters = Prevents noisy chunks\n\nROW 2:\nChecklist item = Table extraction | Status to verify = Rows, columns, headers, and footnotes preserved | Why it matters = Protects factual answers\n\nROW 3:\nChecklist item = Image handling | Status to verify = Captions indexed and OCR done if required | Why it matters = Avoids missing visual information\n\nROW 4:\nChecklist item = Metadata | Status to verify = source, page, client_id, document_id captured | Why it matters = Enables citations and access control\n\nROW 5:\nChecklist item = Chunking | Status to verify = Chunks preserve meaning and section boundaries | Why it matters = Improves retrieval relevance\n\nROW 6:\nChecklist item = Access control | Status to verify = Retrieval filters use authenticated client_id | Why it matters = Prevents data leakage\n\nROW 7:\nChecklist item = Evaluation | Status to verify = Golden questions tested with citations | Why it matters = Measures real answer quality"
+  },
+  {
+    "page_number": 24,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "Element",
+        "Parsing Challenge",
+        "Expected Handling"
+      ],
+      [
+        "Portrait image",
+        "Pixels are not selectable PDF text.",
+        "Extract image object or create visual summary with a multimodal model."
+      ],
+      [
+        "Caption text",
+        "Caption should stay attached to image context.",
+        "Preserve caption near the image in reading order."
+      ],
+      [
+        "Image metadata",
+        "File name, page, and bounding box may be needed.",
+        "Store metadata for citation and retrieval."
+      ],
+      [
+        "RAG usage",
+        "Text-only chunks may miss visual details.",
+        "Use OCR or vision captioning before chunking if visual content matters."
+      ]
+    ],
+    "headers": [
+      "Element",
+      "Parsing Challenge",
+      "Expected Handling"
+    ],
+    "rows": [
+      {
+        "Element": "Portrait image",
+        "Parsing Challenge": "Pixels are not selectable PDF text.",
+        "Expected Handling": "Extract image object or create visual summary with a multimodal model."
+      },
+      {
+        "Element": "Caption text",
+        "Parsing Challenge": "Caption should stay attached to image context.",
+        "Expected Handling": "Preserve caption near the image in reading order."
+      },
+      {
+        "Element": "Image metadata",
+        "Parsing Challenge": "File name, page, and bounding box may be needed.",
+        "Expected Handling": "Store metadata for citation and retrieval."
+      },
+      {
+        "Element": "RAG usage",
+        "Parsing Challenge": "Text-only chunks may miss visual details.",
+        "Expected Handling": "Use OCR or vision captioning before chunking if visual content matters."
+      }
+    ],
+    "row_count": 4,
+    "column_count": 3,
+    "markdown": "| Element        | Parsing Challenge                                | Expected Handling                                                       |\n|:---------------|:-------------------------------------------------|:------------------------------------------------------------------------|\n| Portrait image | Pixels are not selectable PDF text.              | Extract image object or create visual summary with a multimodal model.  |\n| Caption text   | Caption should stay attached to image context.   | Preserve caption near the image in reading order.                       |\n| Image metadata | File name, page, and bounding box may be needed. | Store metadata for citation and retrieval.                              |\n| RAG usage      | Text-only chunks may miss visual details.        | Use OCR or vision captioning before chunking if visual content matters. |",
+    "csv": "Element,Parsing Challenge,Expected Handling\r\nPortrait image,Pixels are not selectable PDF text.,Extract image object or create visual summary with a multimodal model.\r\nCaption text,Caption should stay attached to image context.,Preserve caption near the image in reading order.\r\nImage metadata,\"File name, page, and bounding box may be needed.\",Store metadata for citation and retrieval.\r\nRAG usage,Text-only chunks may miss visual details.,Use OCR or vision captioning before chunking if visual content matters.\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 24\nTABLE INDEX: 1\nNUMBER OF COLUMNS: 3\nNUMBER OF DATA ROWS: 4\n\nTABLE COLUMNS:\nElement, Parsing Challenge, Expected Handling\n\nROW 1:\nElement = Portrait image | Parsing Challenge = Pixels are not selectable PDF text. | Expected Handling = Extract image object or create visual summary with a multimodal model.\n\nROW 2:\nElement = Caption text | Parsing Challenge = Caption should stay attached to image context. | Expected Handling = Preserve caption near the image in reading order.\n\nROW 3:\nElement = Image metadata | Parsing Challenge = File name, page, and bounding box may be needed. | Expected Handling = Store metadata for citation and retrieval.\n\nROW 4:\nElement = RAG usage | Parsing Challenge = Text-only chunks may miss visual details. | Expected Handling = Use OCR or vision captioning before chunking if visual content matters."
+  }
+]

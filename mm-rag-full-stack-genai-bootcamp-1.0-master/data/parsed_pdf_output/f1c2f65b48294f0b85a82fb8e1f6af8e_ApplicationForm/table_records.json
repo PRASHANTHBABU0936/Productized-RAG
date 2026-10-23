@@ -1,0 +1,38 @@
+[
+  {
+    "page_number": 1,
+    "table_index": 1,
+    "raw_table": [
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "markdown": "|    |\n|:---|\n|    |",
+    "csv": "\"\"\r\n\"\"\r\n"
+  },
+  {
+    "page_number": 1,
+    "table_index": 2,
+    "raw_table": [
+      [
+        "Payment Mode",
+        "Transaction Ref. No Tr",
+        "ansaction Date",
+        "Amount",
+        "Payment For"
+      ],
+      [
+        "Unified Payments",
+        "114799030151 9",
+        "/6/26, 12:14AM",
+        "2000.0",
+        "Application Fee"
+      ]
+    ],
+    "markdown": "| Payment Mode     | Transaction Ref. No Tr   | ansaction Date   |   Amount | Payment For     |\n|:-----------------|:-------------------------|:-----------------|---------:|:----------------|\n| Unified Payments | 114799030151 9           | /6/26, 12:14AM   |     2000 | Application Fee |",
+    "csv": "Payment Mode,Transaction Ref. No Tr,ansaction Date,Amount,Payment For\r\nUnified Payments,114799030151 9,\"/6/26, 12:14AM\",2000.0,Application Fee\r\n"
+  }
+]

@@ -1,0 +1,24 @@
+# Virtualenv / caches / bytecode - the image builds its own.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets - injected at runtime via env_file, never baked into a layer.
+.env
+.env.*
+!.env.example
+
+# Runtime state - these live in named Docker volumes instead.
+data/
+logs/
+
+# Local scratch files
+_pip_before.txt
+*.log
+
+# Tooling
+.git/
+.gitignore
+.vscode/
+.idea/

@@ -1,0 +1,197 @@
+# Docker Compose for the MM-RAG stack.
+#
+# Scope
+# -----
+# Containerised: FastAPI (api), Celery worker (worker), Streamlit (ui).
+# NOT containerised, by design:
+#   * Ollama    - runs natively on the Windows host. Containers reach it via
+#                 host.docker.internal:11434 (Ollama must listen on 0.0.0.0).
+#   * Qdrant    - stays on Qdrant Cloud, reached with QDRANT_URL/QDRANT_API_KEY
+#                 from .env.
+#
+# Two database modes
+# ------------------
+# 1. DEFAULT (data-safe, no arguments):
+#      docker compose up -d
+#    api/worker talk to the PostgreSQL and Redis that are *already* running on
+#    the Windows host (ports 5433 and 6379). Existing users, documents, jobs
+#    and credentials are used as-is. Nothing is created, migrated or deleted.
+#
+# 2. BUNDLED (fresh, fully self-contained stack):
+#      set COMPOSE_DATABASE_URL / COMPOSE_REDIS_URL (see README "Docker")
+#      docker compose --profile bundled up -d
+#    Adds its own postgres + redis on host ports 5434 / 6380 with named volumes
+#    so they can never collide with the host containers above.
+#
+# Named volumes only. No anonymous volumes, so `docker compose down -v` is the
+# only thing that can remove data and it is never run implicitly.
+
+name: mmrag
+
+x-app-common: &app-common
+  build:
+    context: .
+    dockerfile: Dockerfile
+  image: mmrag-app:local
+  env_file:
+    - .env
+  # Lets a Linux container reach Ollama (and the host Postgres/Redis) on the
+  # Windows host; a no-op on Docker Desktop for Windows, which sets it already.
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
+  volumes:
+    - mmrag-data:/app/data
+    - mmrag-hf-cache:/root/.cache/huggingface
+  restart: unless-stopped
+
+x-app-env: &app-env
+  # Defaults target the existing host services so no data is lost. Override
+  # both for the "bundled" mode - see the header.
+  DATABASE_URL: ${COMPOSE_DATABASE_URL:-postgresql+psycopg://mmrag:mmrag_password@host.docker.internal:5433/mmrag}
+  REDIS_URL: ${COMPOSE_REDIS_URL:-redis://host.docker.internal:6379/0}
+  # Ollama is native on Windows; a container can only reach it via the gateway.
+  OLLAMA_BASE_URL: http://host.docker.internal:11434
+  STORAGE_BACKEND: local
+
+services:
+
+  # ----------------------------------------------------------------
+  # One-shot schema bootstrap. Retries because in the default mode the
+  # host PostgreSQL may still be starting up.
+  # ----------------------------------------------------------------
+  init-db:
+    <<: *app-common
+    environment:
+      <<: *app-env
+    command:
+      - sh
+      - -c
+      - >
+        for attempt in 1 2 3 4 5 6 7 8 9 10; do
+          python -m backend.init_db && exit 0;
+          echo "init_db attempt $$attempt failed, retrying in 6s";
+          sleep 6;
+        done;
+        echo "init_db gave up: check DATABASE_URL / is PostgreSQL running?" >&2;
+        exit 1
+    restart: "no"
+
+  api:
+    <<: *app-common
+    environment:
+      <<: *app-env
+    command:
+      - python
+      - -m
+      - uvicorn
+      - backend.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    ports:
+      - "8000:8000"
+    depends_on:
+      init-db:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  worker:
+    <<: *app-common
+    environment:
+      <<: *app-env
+    # solo pool + concurrency 1: one task at a time, and no fork() after the
+    # heavy native libraries (torch / EasyOCR) are imported.
+    command:
+      - python
+      - -m
+      - celery
+      - -A
+      - backend.worker.celery_app
+      - worker
+      - --loglevel=info
+      - --pool=solo
+      - --concurrency=1
+      - --without-gossip
+      - --without-mingle
+      - --without-heartbeat
+    depends_on:
+      init-db:
+        condition: service_completed_successfully
+
+  ui:
+    <<: *app-common
+    environment:
+      <<: *app-env
+      MM_RAG_API_URL: http://api:8000
+    command:
+      - python
+      - -m
+      - streamlit
+      - run
+      - ui/app.py
+      - --server.address
+      - 0.0.0.0
+      - --server.port
+      - "8502"
+      - --server.headless
+      - "true"
+    ports:
+      - "8502:8502"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8502/_stcore/health"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  # ----------------------------------------------------------------
+  # Optional self-contained data stores. Only started with
+  # `--profile bundled`. Host ports are deliberately 5434/6380 so they can
+  # never clash with the existing mm-rag-postgres (5433) / mmrag-redis (6379).
+  # ----------------------------------------------------------------
+  postgres:
+    profiles: ["bundled"]
+    image: postgres:16
+    environment:
+      POSTGRES_USER: mmrag
+      POSTGRES_PASSWORD: mmrag_password
+      POSTGRES_DB: mmrag
+    ports:
+      - "5434:5432"
+    volumes:
+      - mmrag-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mmrag -d mmrag"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  redis:
+    profiles: ["bundled"]
+    image: redis:7
+    ports:
+      - "6380:6379"
+    volumes:
+      - mmrag-redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  mmrag-data:
+  mmrag-hf-cache:
+  mmrag-pgdata:
+  mmrag-redisdata:

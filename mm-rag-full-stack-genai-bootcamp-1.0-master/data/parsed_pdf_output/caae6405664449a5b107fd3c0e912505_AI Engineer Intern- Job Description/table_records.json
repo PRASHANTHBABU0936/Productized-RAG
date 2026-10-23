@@ -1,0 +1,493 @@
+[
+  {
+    "page_number": 1,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "Job Title: AI Engineer Intern",
+        null,
+        null
+      ],
+      [
+        "Location: Gurugram (In-office)",
+        null,
+        null
+      ],
+      [
+        "Working Days: Monday to Saturday, with 1st and 3rd Saturdays off",
+        null,
+        null
+      ],
+      [
+        "Working Hours: 10:30 AM – 8:00 PM",
+        null,
+        null
+      ],
+      [
+        "Stipend: Based on interview performance, along with PPO opportunities",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "About Darwix AI",
+        null,
+        null
+      ],
+      [
+        "Darwix AI is one of India’s fastest-growing GenAI startups, revolutionizing the future of enterprise sales and",
+        null,
+        null
+      ],
+      [
+        "customer engagement with real-time conversational intelligence. We are building a GenAI-powered agent-assist and",
+        null,
+        null
+      ],
+      [
+        "pitch intelligence suite that captures, analyzes, and enhances every customer interaction—across voice, video, and",
+        null,
+        null
+      ],
+      [
+        "chat—in real time.",
+        null,
+        null
+      ],
+      [
+        "We serve leading enterprise clients across India, the UAE, and Southeast Asia and are backed by global VCs, top",
+        null,
+        null
+      ],
+      [
+        "operators from Google, Salesforce, and McKinsey, and CXOs from the industry. This is your opportunity to join a",
+        null,
+        null
+      ],
+      [
+        "high-caliber team solving frontier problems in real-time voice AI, multilingual transcription, retrieval-augmented",
+        null,
+        null
+      ],
+      [
+        "generation (RAG), and fine-tuned LLMs at scale.",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "Why This Internship is Unlike Anything Else",
+        null,
+        null
+      ],
+      [
+        null,
+        "● Work on a once-in-a-decade problem — pushing the boundaries of GenAI + Speech + Edge compute.",
+        null
+      ],
+      [
+        null,
+        "● Ship real products used by enterprise teams across India & the Middle East.",
+        null
+      ],
+      [
+        null,
+        "● Experiment freely — train models, optimize pipelines, fine-tune LLMs, or build scrapers that work in 5",
+        null
+      ],
+      [
+        null,
+        "languages.",
+        null
+      ],
+      [
+        null,
+        "● Move fast, learn faster — direct mentorship from the founding engineering and AI team.",
+        null
+      ],
+      [
+        null,
+        "● Proof-of-excellence opportunity — stand out in every future job, B-school, or YC application.",
+        null
+      ],
+      [
+        null,
+        null,
+        ""
+      ],
+      [
+        "What You'll Do",
+        null,
+        null
+      ],
+      [
+        null,
+        "● Build and optimize core components of our real-time agent assist engine (Python + FastAPI + Kafka +",
+        null
+      ],
+      [
+        null,
+        "Redis).",
+        null
+      ],
+      [
+        null,
+        "● Train, evaluate, and integrate whisper, wav2vec, or custom STT models on diverse datasets.",
+        null
+      ],
+      [
+        null,
+        "● Work on LLM/RAG pipelines, prompt engineering, or vector DB integrations.",
+        null
+      ],
+      [
+        null,
+        "● Develop internal tools to analyze, visualize, and scale insights from conversations across languages.",
+        null
+      ],
+      [
+        null,
+        "● Optimize for latency, reliability, and multilingual accuracy in dynamic customer environments.",
+        null
+      ],
+      [
+        null,
+        null,
+        ""
+      ],
+      [
+        "Who You Are",
+        null,
+        null
+      ],
+      [
+        null,
+        "● Pursuing a B.Tech/B.E. or dual degree from IITs, IIITs, BITS, NIT Trichy/Warangal/Surathkal, or other Tier-1",
+        null
+      ],
+      [
+        null,
+        "institutes, preferably in Computer Science or allied fields.",
+        null
+      ],
+      [
+        null,
+        "● Comfortable with Python, REST APIs, and database operations. Bonus: familiarity with FastAPI, Langchain,",
+        null
+      ],
+      [
+        null,
+        "or HuggingFace.",
+        null
+      ],
+      [
+        null,
+        "● Passionate about AI/ML, especially NLP, GenAI, ASR, or multimodal systems.",
+        null
+      ],
+      [
+        null,
+        "● Always curious, always shipping, always pushing yourself beyond the brief.",
+        null
+      ],
+      [
+        null,
+        "● Looking for an internship that actually matters — not one where you're just fixing CSS.",
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        ""
+      ],
+      [
+        null,
+        null,
+        ""
+      ],
+      [
+        "Darwix AI",
+        null,
+        null
+      ],
+      [
+        "7th Floor, Imperia Mindspace, Sector 62, Golf Course Extension Road, Gurugram, Haryana, India, 122002",
+        null,
+        null
+      ]
+    ],
+    "markdown": "|                                                                                                                    | nan                                                                                                            |   nan |\n|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|------:|\n|                                                                                                                    | nan                                                                                                            |   nan |\n|                                                                                                                    | nan                                                                                                            |   nan |\n| Job Title: AI Engineer Intern                                                                                      | nan                                                                                                            |   nan |\n| Location: Gurugram (In-office)                                                                                     | nan                                                                                                            |   nan |\n| Working Days: Monday to Saturday, with 1st and 3rd Saturdays off                                                   | nan                                                                                                            |   nan |\n| Working Hours: 10:30 AM – 8:00 PM                                                                                  | nan                                                                                                            |   nan |\n| Stipend: Based on interview performance, along with PPO opportunities                                              | nan                                                                                                            |   nan |\n|                                                                                                                    | nan                                                                                                            |   nan |\n| About Darwix AI                                                                                                    | nan                                                                                                            |   nan |\n| Darwix AI is one of India’s fastest-growing GenAI startups, revolutionizing the future of enterprise sales and     | nan                                                                                                            |   nan |\n| customer engagement with real-time conversational intelligence. We are building a GenAI-powered agent-assist and   | nan                                                                                                            |   nan |\n| pitch intelligence suite that captures, analyzes, and enhances every customer interaction—across voice, video, and | nan                                                                                                            |   nan |\n| chat—in real time.                                                                                                 | nan                                                                                                            |   nan |\n| We serve leading enterprise clients across India, the UAE, and Southeast Asia and are backed by global VCs, top    | nan                                                                                                            |   nan |\n| operators from Google, Salesforce, and McKinsey, and CXOs from the industry. This is your opportunity to join a    | nan                                                                                                            |   nan |\n| high-caliber team solving frontier problems in real-time voice AI, multilingual transcription, retrieval-augmented | nan                                                                                                            |   nan |\n| generation (RAG), and fine-tuned LLMs at scale.                                                                    | nan                                                                                                            |   nan |\n|                                                                                                                    | nan                                                                                                            |   nan |\n| Why This Internship is Unlike Anything Else                                                                        | nan                                                                                                            |   nan |\n| nan                                                                                                                | ● Work on a once-in-a-decade problem — pushing the boundaries of GenAI + Speech + Edge compute.                |   nan |\n| nan                                                                                                                | ● Ship real products used by enterprise teams across India & the Middle East.                                  |   nan |\n| nan                                                                                                                | ● Experiment freely — train models, optimize pipelines, fine-tune LLMs, or build scrapers that work in 5       |   nan |\n| nan                                                                                                                | languages.                                                                                                     |   nan |\n| nan                                                                                                                | ● Move fast, learn faster — direct mentorship from the founding engineering and AI team.                       |   nan |\n| nan                                                                                                                | ● Proof-of-excellence opportunity — stand out in every future job, B-school, or YC application.                |   nan |\n| nan                                                                                                                | nan                                                                                                            |       |\n| What You'll Do                                                                                                     | nan                                                                                                            |   nan |\n| nan                                                                                                                | ● Build and optimize core components of our real-time agent assist engine (Python + FastAPI + Kafka +          |   nan |\n| nan                                                                                                                | Redis).                                                                                                        |   nan |\n| nan                                                                                                                | ● Train, evaluate, and integrate whisper, wav2vec, or custom STT models on diverse datasets.                   |   nan |\n| nan                                                                                                                | ● Work on LLM/RAG pipelines, prompt engineering, or vector DB integrations.                                    |   nan |\n| nan                                                                                                                | ● Develop internal tools to analyze, visualize, and scale insights from conversations across languages.        |   nan |\n| nan                                                                                                                | ● Optimize for latency, reliability, and multilingual accuracy in dynamic customer environments.               |   nan |\n| nan                                                                                                                | nan                                                                                                            |       |\n| Who You Are                                                                                                        | nan                                                                                                            |   nan |\n| nan                                                                                                                | ● Pursuing a B.Tech/B.E. or dual degree from IITs, IIITs, BITS, NIT Trichy/Warangal/Surathkal, or other Tier-1 |   nan |\n| nan                                                                                                                | institutes, preferably in Computer Science or allied fields.                                                   |   nan |\n| nan                                                                                                                | ● Comfortable with Python, REST APIs, and database operations. Bonus: familiarity with FastAPI, Langchain,     |   nan |\n| nan                                                                                                                | or HuggingFace.                                                                                                |   nan |\n| nan                                                                                                                | ● Passionate about AI/ML, especially NLP, GenAI, ASR, or multimodal systems.                                   |   nan |\n| nan                                                                                                                | ● Always curious, always shipping, always pushing yourself beyond the brief.                                   |   nan |\n| nan                                                                                                                | ● Looking for an internship that actually matters — not one where you're just fixing CSS.                      |   nan |\n|                                                                                                                    | nan                                                                                                            |   nan |\n| nan                                                                                                                | nan                                                                                                            |       |\n| nan                                                                                                                | nan                                                                                                            |       |\n| Darwix AI                                                                                                          | nan                                                                                                            |   nan |\n| 7th Floor, Imperia Mindspace, Sector 62, Golf Course Extension Road, Gurugram, Haryana, India, 122002              | nan                                                                                                            |   nan |",
+    "csv": ",,\r\n,,\r\n,,\r\nJob Title: AI Engineer Intern,,\r\nLocation: Gurugram (In-office),,\r\n\"Working Days: Monday to Saturday, with 1st and 3rd Saturdays off\",,\r\nWorking Hours: 10:30 AM – 8:00 PM,,\r\n\"Stipend: Based on interview performance, along with PPO opportunities\",,\r\n,,\r\nAbout Darwix AI,,\r\n\"Darwix AI is one of India’s fastest-growing GenAI startups, revolutionizing the future of enterprise sales and\",,\r\ncustomer engagement with real-time conversational intelligence. We are building a GenAI-powered agent-assist and,,\r\n\"pitch intelligence suite that captures, analyzes, and enhances every customer interaction—across voice, video, and\",,\r\nchat—in real time.,,\r\n\"We serve leading enterprise clients across India, the UAE, and Southeast Asia and are backed by global VCs, top\",,\r\n\"operators from Google, Salesforce, and McKinsey, and CXOs from the industry. This is your opportunity to join a\",,\r\n\"high-caliber team solving frontier problems in real-time voice AI, multilingual transcription, retrieval-augmented\",,\r\n\"generation (RAG), and fine-tuned LLMs at scale.\",,\r\n,,\r\nWhy This Internship is Unlike Anything Else,,\r\n,● Work on a once-in-a-decade problem — pushing the boundaries of GenAI + Speech + Edge compute.,\r\n,● Ship real products used by enterprise teams across India & the Middle East.,\r\n,\"● Experiment freely — train models, optimize pipelines, fine-tune LLMs, or build scrapers that work in 5\",\r\n,languages.,\r\n,\"● Move fast, learn faster — direct mentorship from the founding engineering and AI team.\",\r\n,\"● Proof-of-excellence opportunity — stand out in every future job, B-school, or YC application.\",\r\n,,\r\nWhat You'll Do,,\r\n,● Build and optimize core components of our real-time agent assist engine (Python + FastAPI + Kafka +,\r\n,Redis).,\r\n,\"● Train, evaluate, and integrate whisper, wav2vec, or custom STT models on diverse datasets.\",\r\n,\"● Work on LLM/RAG pipelines, prompt engineering, or vector DB integrations.\",\r\n,\"● Develop internal tools to analyze, visualize, and scale insights from conversations across languages.\",\r\n,\"● Optimize for latency, reliability, and multilingual accuracy in dynamic customer environments.\",\r\n,,\r\nWho You Are,,\r\n,\"● Pursuing a B.Tech/B.E. or dual degree from IITs, IIITs, BITS, NIT Trichy/Warangal/Surathkal, or other Tier-1\",\r\n,\"institutes, preferably in Computer Science or allied fields.\",\r\n,\"● Comfortable with Python, REST APIs, and database operations. Bonus: familiarity with FastAPI, Langchain,\",\r\n,or HuggingFace.,\r\n,\"● Passionate about AI/ML, especially NLP, GenAI, ASR, or multimodal systems.\",\r\n,\"● Always curious, always shipping, always pushing yourself beyond the brief.\",\r\n,● Looking for an internship that actually matters — not one where you're just fixing CSS.,\r\n,,\r\n,,\r\n,,\r\nDarwix AI,,\r\n\"7th Floor, Imperia Mindspace, Sector 62, Golf Course Extension Road, Gurugram, Haryana, India, 122002\",,\r\n"
+  },
+  {
+    "page_number": 2,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "Tech You’ll Touch",
+        null,
+        null
+      ],
+      [
+        "Python, FastAPI, Kafka, Redis, MongoDB, Postgres, Whisper, Deepgram, Wav2Vec, HuggingFace Transformers",
+        null,
+        null
+      ],
+      [
+        "OpenAI, Anthropic, Gemini APIs, LangChain, FAISS, Pinecone, LlamaIndex, Docker, GitHub Actions, Linux",
+        null,
+        null
+      ],
+      [
+        "environments",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "What’s in it for you",
+        null,
+        null
+      ],
+      [
+        null,
+        "● A pre-placement offer for the best performers.",
+        null
+      ],
+      [
+        null,
+        "● A chance to be a founding engineer post-graduation.",
+        null
+      ],
+      [
+        null,
+        "● Exposure to the VC ecosystem, client demos, and GTM strategies.",
+        null
+      ],
+      [
+        null,
+        "● Stipend + access to tools/courses/compute resources you need to thrive.",
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        ""
+      ],
+      [
+        null,
+        null,
+        ""
+      ],
+      [
+        "Darwix AI",
+        null,
+        null
+      ],
+      [
+        "7th Floor, Imperia Mindspace, Sector 62, Golf Course Extension Road, Gurugram, Haryana, India, 122002",
+        null,
+        null
+      ]
+    ],
+    "markdown": "|                                                                                                        | nan                                                                       |   nan |\n|:-------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------|------:|\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n| Tech You’ll Touch                                                                                      | nan                                                                       |   nan |\n| Python, FastAPI, Kafka, Redis, MongoDB, Postgres, Whisper, Deepgram, Wav2Vec, HuggingFace Transformers | nan                                                                       |   nan |\n| OpenAI, Anthropic, Gemini APIs, LangChain, FAISS, Pinecone, LlamaIndex, Docker, GitHub Actions, Linux  | nan                                                                       |   nan |\n| environments                                                                                           | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n| What’s in it for you                                                                                   | nan                                                                       |   nan |\n| nan                                                                                                    | ● A pre-placement offer for the best performers.                          |   nan |\n| nan                                                                                                    | ● A chance to be a founding engineer post-graduation.                     |   nan |\n| nan                                                                                                    | ● Exposure to the VC ecosystem, client demos, and GTM strategies.         |   nan |\n| nan                                                                                                    | ● Stipend + access to tools/courses/compute resources you need to thrive. |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n|                                                                                                        | nan                                                                       |   nan |\n| nan                                                                                                    | nan                                                                       |       |\n| nan                                                                                                    | nan                                                                       |       |\n| Darwix AI                                                                                              | nan                                                                       |   nan |\n| 7th Floor, Imperia Mindspace, Sector 62, Golf Course Extension Road, Gurugram, Haryana, India, 122002  | nan                                                                       |   nan |",
+    "csv": ",,\r\n,,\r\n,,\r\nTech You’ll Touch,,\r\n\"Python, FastAPI, Kafka, Redis, MongoDB, Postgres, Whisper, Deepgram, Wav2Vec, HuggingFace Transformers\",,\r\n\"OpenAI, Anthropic, Gemini APIs, LangChain, FAISS, Pinecone, LlamaIndex, Docker, GitHub Actions, Linux\",,\r\nenvironments,,\r\n,,\r\nWhat’s in it for you,,\r\n,● A pre-placement offer for the best performers.,\r\n,● A chance to be a founding engineer post-graduation.,\r\n,\"● Exposure to the VC ecosystem, client demos, and GTM strategies.\",\r\n,● Stipend + access to tools/courses/compute resources you need to thrive.,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\n,,\r\nDarwix AI,,\r\n\"7th Floor, Imperia Mindspace, Sector 62, Golf Course Extension Road, Gurugram, Haryana, India, 122002\",,\r\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "page_number": 3,
+    "image_index": 1,
+    "image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\Pulmo-TS2ONN_A_Novel_Triple_Scale_Self_Operational_Neural_Network_for_Pulmonary_Disorder_Detection_Using_Respiratory_Sounds\\extracted_images\\page_003_image_1.png",
+    "image_ext": "png",
+    "image_ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]"
+  },
+  {
+    "page_number": 5,
+    "image_index": 1,
+    "image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\Pulmo-TS2ONN_A_Novel_Triple_Scale_Self_Operational_Neural_Network_for_Pulmonary_Disorder_Detection_Using_Respiratory_Sounds\\extracted_images\\page_005_image_1.png",
+    "image_ext": "png",
+    "image_ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]"
+  },
+  {
+    "page_number": 5,
+    "image_index": 2,
+    "image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\Pulmo-TS2ONN_A_Novel_Triple_Scale_Self_Operational_Neural_Network_for_Pulmonary_Disorder_Detection_Using_Respiratory_Sounds\\extracted_images\\page_005_image_2.png",
+    "image_ext": "png",
+    "image_ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]"
+  },
+  {
+    "page_number": 5,
+    "image_index": 3,
+    "image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\Pulmo-TS2ONN_A_Novel_Triple_Scale_Self_Operational_Neural_Network_for_Pulmonary_Disorder_Detection_Using_Respiratory_Sounds\\extracted_images\\page_005_image_3.png",
+    "image_ext": "png",
+    "image_ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]"
+  },
+  {
+    "page_number": 6,
+    "image_index": 1,
+    "image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\Pulmo-TS2ONN_A_Novel_Triple_Scale_Self_Operational_Neural_Network_for_Pulmonary_Disorder_Detection_Using_Respiratory_Sounds\\extracted_images\\page_006_image_1.png",
+    "image_ext": "png",
+    "image_ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]"
+  },
+  {
+    "page_number": 8,
+    "image_index": 1,
+    "image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\Pulmo-TS2ONN_A_Novel_Triple_Scale_Self_Operational_Neural_Network_for_Pulmonary_Disorder_Detection_Using_Respiratory_Sounds\\extracted_images\\page_008_image_1.png",
+    "image_ext": "png",
+    "image_ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]"
+  },
+  {
+    "page_number": 10,
+    "image_index": 1,
+    "image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\Pulmo-TS2ONN_A_Novel_Triple_Scale_Self_Operational_Neural_Network_for_Pulmonary_Disorder_Detection_Using_Respiratory_Sounds\\extracted_images\\page_010_image_1.png",
+    "image_ext": "png",
+    "image_ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]"
+  },
+  {
+    "page_number": 10,
+    "image_index": 2,
+    "image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\Pulmo-TS2ONN_A_Novel_Triple_Scale_Self_Operational_Neural_Network_for_Pulmonary_Disorder_Detection_Using_Respiratory_Sounds\\extracted_images\\page_010_image_2.png",
+    "image_ext": "png",
+    "image_ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]"
+  }
+]

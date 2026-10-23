@@ -1,0 +1,9 @@
+# Sample MM-RAG evaluation dataset (JSONL, one case per line).
+# Replace tenant_id / expected_sources with your own indexed documents.
+# Lines starting with "#" are ignored by the harness.
+{"question": "Which three client teams are migrating their documents into the RAG platform?", "tenant_id": "013b9322-7116-472f-bbf8-db4f6554a79c", "expected_keywords": ["Arka Finance", "BlueLeaf Retail", "CityRide Mobility"], "expected_sources": ["Client_Contracts_Policies_and_Incident_Records.pdf"], "k": 6}
+{"question": "Which client is rated as high risk?", "tenant_id": "013b9322-7116-472f-bbf8-db4f6554a79c", "expected_keywords": ["Arka Finance"], "expected_sources": ["Client_Contracts_Policies_and_Incident_Records.pdf"], "k": 6}
+{"question": "What asset ID belongs to the BlueLeaf Retail SLA document?", "tenant_id": "013b9322-7116-472f-bbf8-db4f6554a79c", "expected_keywords": ["BLR-SLA-004"], "expected_sources": ["Client_Contracts_Policies_and_Incident_Records.pdf"], "k": 6}
+{"question": "How many rows does the CityRide Mobility incident CSV contain?", "tenant_id": "013b9322-7116-472f-bbf8-db4f6554a79c", "expected_keywords": ["48,200"], "expected_sources": ["Client_Contracts_Policies_and_Incident_Records.pdf"], "k": 6}
+{"question": "How many pages does the Arka Finance MSA contain?", "tenant_id": "013b9322-7116-472f-bbf8-db4f6554a79c", "expected_keywords": ["32"], "expected_sources": ["Client_Contracts_Policies_and_Incident_Records.pdf"], "k": 6}
+{"question": "Does RAG train the model, or does it provide context before answering?", "tenant_id": "013b9322-7116-472f-bbf8-db4f6554a79c", "expected_keywords": ["does not train", "context"], "expected_sources": ["Client_Contracts_Policies_and_Incident_Records.pdf"], "k": 6}

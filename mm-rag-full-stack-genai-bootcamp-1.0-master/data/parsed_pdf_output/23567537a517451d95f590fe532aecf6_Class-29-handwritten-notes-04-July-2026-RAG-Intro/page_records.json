@@ -1,0 +1,101 @@
+[
+  {
+    "page_number": 1,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_001.png"
+  },
+  {
+    "page_number": 2,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_002.png"
+  },
+  {
+    "page_number": 3,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_003.png"
+  },
+  {
+    "page_number": 4,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_004.png"
+  },
+  {
+    "page_number": 5,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_005.png"
+  },
+  {
+    "page_number": 6,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_006.png"
+  },
+  {
+    "page_number": 7,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_007.png"
+  },
+  {
+    "page_number": 8,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_008.png"
+  },
+  {
+    "page_number": 9,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_009.png"
+  },
+  {
+    "page_number": 10,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_010.png"
+  },
+  {
+    "page_number": 11,
+    "text": "",
+    "ocr_text": "[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]",
+    "image_count": 1,
+    "width": 595.0,
+    "height": 842.0,
+    "page_image_path": "D:\\mm-rag-full-stack-genai-bootcamp-1.0-master\\mm-rag-full-stack-genai-bootcamp-1.0-master\\data\\parsed_pdf_output\\23567537a517451d95f590fe532aecf6_Class-29-handwritten-notes-04-July-2026-RAG-Intro\\page_images\\page_011.png"
+  }
+]

@@ -1,0 +1,15 @@
+# Ignore the project folder's sensitive files and generated artifacts
+mm-rag-full-stack-genai-bootcamp-1.0-master/.env
+mm-rag-full-stack-genai-bootcamp-1.0-master/.env.*
+!mm-rag-full-stack-genai-bootcamp-1.0-master/.env.example
+mm-rag-full-stack-genai-bootcamp-1.0-master/.venv/
+mm-rag-full-stack-genai-bootcamp-1.0-master/venv/
+mm-rag-full-stack-genai-bootcamp-1.0-master/.pytest_cache/
+mm-rag-full-stack-genai-bootcamp-1.0-master/**/__pycache__/
+mm-rag-full-stack-genai-bootcamp-1.0-master/**/*.pyc
+mm-rag-full-stack-genai-bootcamp-1.0-master/logs/
+mm-rag-full-stack-genai-bootcamp-1.0-master/**/*.log
+
+# Root-level logs and generated files
+*.log
+_pip_freeze.txt

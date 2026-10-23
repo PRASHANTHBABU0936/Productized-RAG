@@ -1,0 +1,101 @@
+[
+  {
+    "page_number": 4,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "markdown": "|    |    |    |    |\n|:---|:---|:---|:---|\n|    |    |    |    |",
+    "csv": ",,,\r\n,,,\r\n"
+  },
+  {
+    "page_number": 7,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "markdown": "|    |    |    |    |\n|----|----|----|----|",
+    "csv": ",,,\r\n"
+  },
+  {
+    "page_number": 8,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "",
+        ""
+      ],
+      [
+        null,
+        ""
+      ],
+      [
+        null,
+        ""
+      ],
+      [
+        null,
+        ""
+      ]
+    ],
+    "markdown": "|    |    |\n|:---|:---|\n|    |    |\n|    |    |\n|    |    |",
+    "csv": ",\r\n,\r\n,\r\n,\r\n"
+  },
+  {
+    "page_number": 8,
+    "table_index": 2,
+    "raw_table": [
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "markdown": "|    |    |    |\n|----|----|----|",
+    "csv": ",,\r\n"
+  },
+  {
+    "page_number": 9,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "markdown": "|    |    |    |    |\n|----|----|----|----|",
+    "csv": ",,,\r\n"
+  },
+  {
+    "page_number": 10,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "markdown": "|    |    |    |    |\n|----|----|----|----|",
+    "csv": ",,,\r\n"
+  }
+]

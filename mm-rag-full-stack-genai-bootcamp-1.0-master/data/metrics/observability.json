@@ -1,0 +1,135 @@
+{
+  "requests": [
+    {
+      "count": 6,
+      "method": "GET",
+      "path": "/docs",
+      "status": 200
+    },
+    {
+      "count": 6,
+      "method": "GET",
+      "path": "/openapi.json",
+      "status": 200
+    },
+    {
+      "count": 14,
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 500
+    },
+    {
+      "count": 28,
+      "method": "GET",
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "count": 10,
+      "method": "GET",
+      "path": "/health/ready",
+      "status": 200
+    },
+    {
+      "count": 1,
+      "method": "POST",
+      "path": "/documents/upload",
+      "status": 401
+    },
+    {
+      "count": 3,
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 401
+    },
+    {
+      "count": 5,
+      "method": "POST",
+      "path": "/auth/register",
+      "status": 409
+    },
+    {
+      "count": 37,
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "count": 28,
+      "method": "GET",
+      "path": "/auth/me",
+      "status": 200
+    },
+    {
+      "count": 23,
+      "method": "POST",
+      "path": "/documents/upload",
+      "status": 500
+    },
+    {
+      "count": 2,
+      "method": "GET",
+      "path": "/favicon.ico",
+      "status": 404
+    },
+    {
+      "count": 3,
+      "method": "GET",
+      "path": "/",
+      "status": 404
+    },
+    {
+      "count": 6,
+      "method": "POST",
+      "path": "/auth/register",
+      "status": 200
+    },
+    {
+      "count": 14,
+      "method": "POST",
+      "path": "/documents/upload",
+      "status": 200
+    },
+    {
+      "count": 958,
+      "method": "GET",
+      "path": "/documents/status/{job_id}",
+      "status": 200
+    },
+    {
+      "count": 3,
+      "method": "POST",
+      "path": "/query",
+      "status": 500
+    },
+    {
+      "count": 1,
+      "method": "GET",
+      "path": "/metrics",
+      "status": 200
+    },
+    {
+      "count": 3,
+      "method": "POST",
+      "path": "/query",
+      "status": 200
+    },
+    {
+      "count": 1,
+      "method": "GET",
+      "path": "/health/ready",
+      "status": 503
+    }
+  ],
+  "updated_at": "2026-10-22T00:15:05Z",
+  "usage": {
+    "llama3.2:1b": {
+      "calls": 1.0,
+      "estimated_cost_usd": 0.0,
+      "input_tokens": 994.0,
+      "output_tokens": 38.0,
+      "total_tokens": 1032.0
+    }
+  },
+  "version": 1
+}

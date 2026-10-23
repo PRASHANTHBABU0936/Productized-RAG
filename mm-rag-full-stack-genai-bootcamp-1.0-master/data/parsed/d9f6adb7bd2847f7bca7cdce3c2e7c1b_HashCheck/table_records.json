@@ -1,0 +1,43 @@
+[
+  {
+    "page_number": 1,
+    "table_index": 2,
+    "raw_table": [
+      [
+        "Payment Mode",
+        "Transaction Ref. No Tr",
+        "ansaction Date",
+        "Amount",
+        "Payment For"
+      ],
+      [
+        "Unified Payments",
+        "114799030151 9",
+        "/6/26, 12:14AM",
+        "2000.0",
+        "Application Fee"
+      ]
+    ],
+    "headers": [
+      "Payment Mode",
+      "Transaction Ref. No",
+      "Transaction Date",
+      "Amount",
+      "Payment For"
+    ],
+    "rows": [
+      {
+        "Payment Mode": "Unified Payments",
+        "Transaction Ref. No": "114799030151 9",
+        "Transaction Date": "/6/26, 12:14AM",
+        "Amount": "2000.0",
+        "Payment For": "Application Fee"
+      }
+    ],
+    "row_count": 1,
+    "column_count": 5,
+    "markdown": "| Payment Mode     | Transaction Ref. No   | Transaction Date   |   Amount | Payment For     |\n|:-----------------|:----------------------|:-------------------|---------:|:----------------|\n| Unified Payments | 114799030151 9        | /6/26, 12:14AM     |     2000 | Application Fee |",
+    "csv": "Payment Mode,Transaction Ref. No,Transaction Date,Amount,Payment For\r\nUnified Payments,114799030151 9,\"/6/26, 12:14AM\",2000.0,Application Fee\r\n",
+    "searchable_text": "TABLE FOUND ON PAGE 1\nTABLE INDEX: 2\nNUMBER OF COLUMNS: 5\nNUMBER OF DATA ROWS: 1\n\nTABLE COLUMNS:\nPayment Mode, Transaction Ref. No, Transaction Date, Amount, Payment For\n\nROW 1:\nPayment Mode = Unified Payments | Transaction Ref. No = 114799030151 9 | Transaction Date = /6/26, 12:14AM | Amount = 2000.0 | Payment For = Application Fee"
+  }
+]
